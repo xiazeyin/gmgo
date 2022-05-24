@@ -24,9 +24,9 @@ import (
 	"regexp"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/xds/matcher"
+	"github.com/xiazeyin/gmgo/grpc/internal/xds/matcher"
 )
 
 func TestDNSMatch(t *testing.T) {

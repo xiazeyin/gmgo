@@ -23,12 +23,12 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver/manual"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils/fakeclient"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 	"github.com/google/go-cmp/cmp"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/resolver/manual"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/testutils/fakeclient"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 const (

@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
 	"github.com/google/go-cmp/cmp"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
 )
 
 func newTestRing(cStats []connectivity.State) *ring {

@@ -23,21 +23,21 @@ import (
 	"testing"
 	"time"
 
-	v2corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
-	endpointpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/endpoint"
-	lrspb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/load_stats/v2"
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/insecure"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils/fakeserver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/bootstrap"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
 	durationpb "github.com/golang/protobuf/ptypes/duration"
 	"github.com/google/go-cmp/cmp"
+	v2corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
+	endpointpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/endpoint"
+	lrspb "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/load_stats/v2"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/credentials/insecure"
+	"github.com/xiazeyin/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/testutils/fakeserver"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/controller/version/v2" // Register the v2 xDS API client.
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/controller/version/v2" // Register the v2 xDS API client.
 )
 
 const (

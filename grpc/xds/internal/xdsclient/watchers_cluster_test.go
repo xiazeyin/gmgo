@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 	"github.com/google/go-cmp/cmp"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // TestClusterWatch covers the cases:

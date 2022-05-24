@@ -14,11 +14,11 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	ixml "gitee.com/zhaochuninhefei/gmgo/net/webdav/internal/xml"
+	ixml "github.com/xiazeyin/gmgo/net/webdav/internal/xml"
 )
 
 func TestReadLockInfo(t *testing.T) {

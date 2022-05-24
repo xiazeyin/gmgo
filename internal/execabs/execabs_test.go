@@ -13,7 +13,7 @@ import (
 	"runtime"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/testenv"
+	"github.com/xiazeyin/gmgo/internal/testenv"
 )
 
 func TestFixCmd(t *testing.T) {

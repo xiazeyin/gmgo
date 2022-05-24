@@ -25,7 +25,7 @@ import (
 	"io"
 	"math/big"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm3"
+	"github.com/xiazeyin/gmgo/sm3"
 	"golang.org/x/crypto/cryptobyte"
 	cbasn1 "golang.org/x/crypto/cryptobyte/asn1"
 )

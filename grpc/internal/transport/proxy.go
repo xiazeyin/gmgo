@@ -27,9 +27,9 @@ import (
 	"net"
 	"net/url"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httputil"
+	"github.com/xiazeyin/gmgo/gmhttp/httputil"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 const proxyAuthHeaderKey = "Proxy-Authorization"

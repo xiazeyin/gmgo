@@ -31,7 +31,7 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 	"golang.org/x/crypto/curve25519"
 )
 

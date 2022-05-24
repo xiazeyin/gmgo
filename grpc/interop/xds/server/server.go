@@ -27,19 +27,19 @@ import (
 	"net"
 	"os"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/admin"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/insecure"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/health"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/reflection"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/admin"
+	"github.com/xiazeyin/gmgo/grpc/credentials/insecure"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/health"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/reflection"
+	"github.com/xiazeyin/gmgo/grpc/xds"
 
-	xdscreds "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/xds"
-	healthpb "gitee.com/zhaochuninhefei/gmgo/grpc/health/grpc_health_v1"
-	testgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
+	xdscreds "github.com/xiazeyin/gmgo/grpc/credentials/xds"
+	healthpb "github.com/xiazeyin/gmgo/grpc/health/grpc_health_v1"
+	testgrpc "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
+	testpb "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
 )
 
 var (

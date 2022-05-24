@@ -6,7 +6,7 @@ package grpc_zap
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
 	"go.uber.org/zap"
 )
 

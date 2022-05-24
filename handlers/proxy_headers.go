@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 var (

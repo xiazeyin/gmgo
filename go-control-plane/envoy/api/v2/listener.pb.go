@@ -8,14 +8,14 @@ package envoy_api_v2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
-	listener "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/listener"
-	v21 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/filter/accesslog/v2"
-	v2 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/listener/v2"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
+	listener "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/listener"
+	v21 "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/filter/accesslog/v2"
+	v2 "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/listener/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

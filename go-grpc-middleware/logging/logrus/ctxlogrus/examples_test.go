@@ -1,10 +1,10 @@
 package ctxlogrus_test
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/logging/logrus/ctxlogrus"
-	grpc_ctxtags "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
 	"github.com/sirupsen/logrus"
+	"github.com/xiazeyin/gmgo/go-grpc-middleware/logging/logrus/ctxlogrus"
+	grpc_ctxtags "github.com/xiazeyin/gmgo/go-grpc-middleware/tags"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 var logrusLogger *logrus.Logger

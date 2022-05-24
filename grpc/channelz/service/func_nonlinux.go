@@ -22,8 +22,8 @@
 package service
 
 import (
-	channelzpb "gitee.com/zhaochuninhefei/gmgo/grpc/channelz/grpc_channelz_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/channelz"
+	channelzpb "github.com/xiazeyin/gmgo/grpc/channelz/grpc_channelz_v1"
+	"github.com/xiazeyin/gmgo/grpc/internal/channelz"
 )
 
 func sockoptToProto(skopts *channelz.SocketOptionData) []*channelzpb.SocketOption {

@@ -22,8 +22,8 @@
 package metadata
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 type mdKeyType string

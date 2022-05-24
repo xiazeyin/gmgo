@@ -6,18 +6,18 @@ package grpc_validator_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
 	"github.com/stretchr/testify/suite"
+	"github.com/xiazeyin/gmgo/grpc"
 
 	"io"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/xiazeyin/gmgo/grpc/codes"
 
-	grpc_testing "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing"
-	pb_testproto "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing/testproto"
-	grpc_validator "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/validator"
+	grpc_testing "github.com/xiazeyin/gmgo/go-grpc-middleware/testing"
+	pb_testproto "github.com/xiazeyin/gmgo/go-grpc-middleware/testing/testproto"
+	grpc_validator "github.com/xiazeyin/gmgo/go-grpc-middleware/validator"
 )
 
 var (

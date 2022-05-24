@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
 	cpb "google.golang.org/genproto/googleapis/rpc/code"
 )
 

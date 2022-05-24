@@ -23,9 +23,9 @@ import (
 	"testing"
 	"unicode"
 
-	corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
 	"github.com/google/go-cmp/cmp"
+	corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
 )
 
 const ignorePrefix = "XXX_"

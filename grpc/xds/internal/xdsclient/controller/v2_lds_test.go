@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	v2xdspb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	v2xdspb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // TestLDSHandleResponse starts a fake xDS server, makes a ClientConn to it,

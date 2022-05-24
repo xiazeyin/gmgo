@@ -6,10 +6,10 @@ package grpc_auth
 import (
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/util/metautils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
+	"github.com/xiazeyin/gmgo/go-grpc-middleware/util/metautils"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 var (

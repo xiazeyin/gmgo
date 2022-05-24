@@ -3,9 +3,9 @@ package resource
 import (
 	"github.com/golang/protobuf/ptypes"
 
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	listener "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/listener/v3"
-	hcm "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	listener "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/listener/v3"
+	hcm "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
 )
 
 // Type is an alias to string which we expose to users of the snapshot API which accepts `resource.Type` resource URLs.

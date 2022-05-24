@@ -13,8 +13,8 @@ import (
 	"reflect"
 	"time"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
-	"gitee.com/zhaochuninhefei/gmgo/internal/nettrace"
+	tls "github.com/xiazeyin/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/internal/nettrace"
 )
 
 // unique type to prevent assignment.

@@ -37,11 +37,11 @@ import (
 	"runtime/pprof"
 	"time"
 
-	_ "gitee.com/zhaochuninhefei/gmgo/gmhttp/pprof"
+	_ "github.com/xiazeyin/gmgo/gmhttp/pprof"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/benchmark"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/syscall"
+	"github.com/xiazeyin/gmgo/grpc/benchmark"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/syscall"
 )
 
 var (

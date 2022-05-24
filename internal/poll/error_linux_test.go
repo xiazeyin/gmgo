@@ -9,7 +9,7 @@ import (
 	"os"
 	"syscall"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/poll"
+	"github.com/xiazeyin/gmgo/internal/poll"
 )
 
 func badStateFile() (*os.File, error) {

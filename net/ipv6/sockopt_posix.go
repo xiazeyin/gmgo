@@ -12,8 +12,8 @@ import (
 	"runtime"
 	"unsafe"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/bpf"
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
+	"github.com/xiazeyin/gmgo/net/bpf"
+	"github.com/xiazeyin/gmgo/net/internal/socket"
 )
 
 func (so *sockOpt) getMulticastInterface(c *socket.Conn) (*net.Interface, error) {

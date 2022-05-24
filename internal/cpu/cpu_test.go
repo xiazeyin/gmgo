@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	. "gitee.com/zhaochuninhefei/gmgo/internal/cpu"
-	"gitee.com/zhaochuninhefei/gmgo/internal/testenv"
+	. "github.com/xiazeyin/gmgo/internal/cpu"
+	"github.com/xiazeyin/gmgo/internal/testenv"
 )
 
 func TestMinimalFeatures(t *testing.T) {

@@ -22,11 +22,11 @@ import (
 	"net"
 	"regexp"
 
-	v3corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	v3rbacpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/rbac/v3"
-	v3route_componentspb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/route/v3"
-	v3matcherpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type/matcher/v3"
-	internalmatcher "gitee.com/zhaochuninhefei/gmgo/grpc/internal/xds/matcher"
+	v3corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	v3rbacpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/rbac/v3"
+	v3route_componentspb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/route/v3"
+	v3matcherpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/type/matcher/v3"
+	internalmatcher "github.com/xiazeyin/gmgo/grpc/internal/xds/matcher"
 )
 
 // matcher is an interface that takes data about incoming RPC's and returns

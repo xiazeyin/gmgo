@@ -8,10 +8,10 @@ package envoy_config_filter_http_router_v2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v2 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/filter/accesslog/v2"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
+	v2 "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/filter/accesslog/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

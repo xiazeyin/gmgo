@@ -21,7 +21,7 @@
 package connectivity
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
 )
 
 var logger = grpclog.Component("core")

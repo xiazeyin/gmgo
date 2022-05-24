@@ -23,7 +23,7 @@
 package hierarchy
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 type pathKeyType string

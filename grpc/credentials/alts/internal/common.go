@@ -23,7 +23,7 @@ import (
 	"context"
 	"net"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
 )
 
 const (

@@ -79,4 +79,4 @@ This packet filter captures a random 1% sample of traffic.
 	})
 
 */
-package bpf // import "gitee.com/zhaochuninhefei/gmgo/net/bpf"
+package bpf // import "github.com/xiazeyin/gmgo/net/bpf"

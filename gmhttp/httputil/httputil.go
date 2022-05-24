@@ -9,7 +9,7 @@ package httputil
 import (
 	"io"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal"
+	"github.com/xiazeyin/gmgo/gmhttp/internal"
 )
 
 // NewChunkedReader returns a new chunkedReader that translates the data read from r

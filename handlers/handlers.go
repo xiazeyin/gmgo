@@ -11,7 +11,7 @@ import (
 	"sort"
 	"strings"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 // MethodHandler is an http.Handler that dispatches to a handler whose key in the

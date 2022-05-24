@@ -30,25 +30,25 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer/base"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/backoff"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/channelz"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcsync"
-	iresolver "gitee.com/zhaochuninhefei/gmgo/grpc/internal/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/transport"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/balancer/base"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/internal/backoff"
+	"github.com/xiazeyin/gmgo/grpc/internal/channelz"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcsync"
+	iresolver "github.com/xiazeyin/gmgo/grpc/internal/resolver"
+	"github.com/xiazeyin/gmgo/grpc/internal/transport"
+	"github.com/xiazeyin/gmgo/grpc/keepalive"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
+	"github.com/xiazeyin/gmgo/grpc/status"
 
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/roundrobin"           // To register roundrobin.
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/internal/resolver/dns"         // To register dns resolver.
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/internal/resolver/passthrough" // To register passthrough resolver.
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/internal/resolver/unix"        // To register unix resolver.
+	_ "github.com/xiazeyin/gmgo/grpc/balancer/roundrobin"           // To register roundrobin.
+	_ "github.com/xiazeyin/gmgo/grpc/internal/resolver/dns"         // To register dns resolver.
+	_ "github.com/xiazeyin/gmgo/grpc/internal/resolver/passthrough" // To register passthrough resolver.
+	_ "github.com/xiazeyin/gmgo/grpc/internal/resolver/unix"        // To register unix resolver.
 )
 
 const (

@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/pretty"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/load"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/internal/pretty"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/load"
 
-	v2corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
-	v2endpointpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/endpoint"
-	lrsgrpc "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/load_stats/v2"
-	lrspb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/load_stats/v2"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal"
+	v2corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
+	v2endpointpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/endpoint"
+	lrsgrpc "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/load_stats/v2"
+	lrspb "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/load_stats/v2"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal"
 )
 
 const clientFeatureLRSSendAllClusters = "envoy.lrs.supports_send_all_clusters"

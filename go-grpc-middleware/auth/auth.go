@@ -4,9 +4,9 @@
 package grpc_auth
 
 import (
-	grpc_middleware "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
+	grpc_middleware "github.com/xiazeyin/gmgo/go-grpc-middleware"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 // AuthFunc is the pluggable function that performs authentication.

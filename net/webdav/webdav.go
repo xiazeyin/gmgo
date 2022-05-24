@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package webdav provides a WebDAV server implementation.
-package webdav // import "gitee.com/zhaochuninhefei/gmgo/net/webdav"
+package webdav // import "github.com/xiazeyin/gmgo/net/webdav"
 
 import (
 	"errors"
@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 type Handler struct {

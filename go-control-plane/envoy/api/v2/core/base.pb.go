@@ -8,12 +8,12 @@ package envoy_api_v2_core
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_type "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	any "github.com/golang/protobuf/ptypes/any"
 	_struct "github.com/golang/protobuf/ptypes/struct"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
+	_type "github.com/xiazeyin/gmgo/go-control-plane/envoy/type"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

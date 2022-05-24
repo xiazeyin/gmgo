@@ -11,7 +11,7 @@ import (
 	"io"
 	"testing"
 
-	. "gitee.com/zhaochuninhefei/gmgo/internal/poll"
+	. "github.com/xiazeyin/gmgo/internal/poll"
 )
 
 var eofErrorTests = []struct {

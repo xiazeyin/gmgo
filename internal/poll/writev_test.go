@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/poll"
+	"github.com/xiazeyin/gmgo/internal/poll"
 )
 
 func TestConsume(t *testing.T) {

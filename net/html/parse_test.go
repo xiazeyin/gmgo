@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/html/atom"
+	"github.com/xiazeyin/gmgo/net/html/atom"
 )
 
 type testAttrs struct {

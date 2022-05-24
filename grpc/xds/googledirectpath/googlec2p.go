@@ -29,21 +29,21 @@ import (
 	"fmt"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/google"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/envconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/googlecloud"
-	internalgrpclog "gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcrand"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds" // To register xds resolvers and balancers.
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/bootstrap"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/credentials/google"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/envconfig"
+	"github.com/xiazeyin/gmgo/grpc/internal/googlecloud"
+	internalgrpclog "github.com/xiazeyin/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcrand"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	_ "github.com/xiazeyin/gmgo/grpc/xds" // To register xds resolvers and balancers.
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	v3corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
+	v3corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
 )
 
 const (

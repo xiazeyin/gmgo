@@ -21,5 +21,5 @@ package rls
 
 import (
 	// Blank import to init the rls lb policy for external use.
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/rls/internal"
+	_ "github.com/xiazeyin/gmgo/grpc/balancer/rls/internal"
 )

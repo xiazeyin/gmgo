@@ -31,8 +31,8 @@ import (
 	"syscall"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/channelz"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/internal/channelz"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
 	"golang.org/x/sys/unix"
 )
 

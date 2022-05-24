@@ -19,8 +19,8 @@
 package grpc
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/encoding"
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/encoding/proto" // to register the Codec for "proto"
+	"github.com/xiazeyin/gmgo/grpc/encoding"
+	_ "github.com/xiazeyin/gmgo/grpc/encoding/proto" // to register the Codec for "proto"
 )
 
 // baseCodec contains the functionality of both Codec and encoding.Codec, but

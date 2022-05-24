@@ -21,7 +21,7 @@ package grpclog
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpclog"
 )
 
 // componentData records the settings for a component.

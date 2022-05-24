@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/iana"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv6"
+	"github.com/xiazeyin/gmgo/net/internal/iana"
+	"github.com/xiazeyin/gmgo/net/ipv6"
 )
 
 var (

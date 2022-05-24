@@ -7,7 +7,7 @@ package bytealg
 import (
 	"unsafe"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/cpu"
+	"github.com/xiazeyin/gmgo/internal/cpu"
 )
 
 // Offsets into internal/cpu records for use in assembly.

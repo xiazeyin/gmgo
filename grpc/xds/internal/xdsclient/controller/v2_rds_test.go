@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	xdspb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils/fakeserver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	xdspb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/testutils/fakeserver"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // doLDS makes a LDS watch, and waits for the response and ack to finish.

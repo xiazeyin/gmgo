@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/envconfig"
+	"github.com/xiazeyin/gmgo/grpc/internal/envconfig"
 )
 
 func TestParseName(t *testing.T) {

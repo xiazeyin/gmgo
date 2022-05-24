@@ -27,17 +27,17 @@ import (
 	"net"
 	"strconv"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	v3rbacpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/rbac/v3"
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/transport"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/peer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	v3rbacpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/rbac/v3"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/transport"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/peer"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 const logLevel = 2

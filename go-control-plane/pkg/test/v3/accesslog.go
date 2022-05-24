@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	alf "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/data/accesslog/v3"
-	accessloggrpc "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/accesslog/v3"
+	alf "github.com/xiazeyin/gmgo/go-control-plane/envoy/data/accesslog/v3"
+	accessloggrpc "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/accesslog/v3"
 )
 
 // AccessLogService buffers access logs from the remote Envoy nodes.

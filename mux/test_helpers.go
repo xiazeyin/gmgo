@@ -4,7 +4,7 @@
 
 package mux
 
-import http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+import http "github.com/xiazeyin/gmgo/gmhttp"
 
 // SetURLVars sets the URL variables for the given request, to be accessed via
 // mux.Vars for testing route behaviour. Arguments are not modified, a shallow

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/util/backoffutils"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/gmgo/go-grpc-middleware/util/backoffutils"
 )
 
 // scale duration by a factor

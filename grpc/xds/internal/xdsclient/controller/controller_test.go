@@ -20,11 +20,11 @@ package controller
 import (
 	"testing"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/insecure"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/bootstrap"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/credentials/insecure"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
 )
 
 const testXDSServer = "xds-server"

@@ -4,11 +4,11 @@ import (
 	"path"
 	"time"
 
-	grpc_middleware "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware"
-	"gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/logging/zap/ctxzap"
-	ctx_zap "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags/zap"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
+	grpc_middleware "github.com/xiazeyin/gmgo/go-grpc-middleware"
+	"github.com/xiazeyin/gmgo/go-grpc-middleware/logging/zap/ctxzap"
+	ctx_zap "github.com/xiazeyin/gmgo/go-grpc-middleware/tags/zap"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/net/context"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

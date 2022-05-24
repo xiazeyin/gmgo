@@ -23,23 +23,23 @@ import (
 	"net/url"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	v3corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	v3rbacpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/rbac/v3"
-	v3routepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/route/v3"
-	v3matcherpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type/matcher/v3"
-	v3typepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type/v3"
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/peer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
+	v3corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	v3rbacpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/rbac/v3"
+	v3routepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/route/v3"
+	v3matcherpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/type/matcher/v3"
+	v3typepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/type/v3"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/peer"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 type s struct {

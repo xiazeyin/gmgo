@@ -22,15 +22,15 @@ import (
 	"encoding/json"
 	"testing"
 
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/rls"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/proto/grpc_lookup_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/balancer/cdsbalancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/clusterspecifier"
 	"github.com/golang/protobuf/proto"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	_ "github.com/xiazeyin/gmgo/grpc/balancer/rls"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/internal/proto/grpc_lookup_v1"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/balancer/cdsbalancer"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/clusterspecifier"
 	"google.golang.org/protobuf/types/known/durationpb"
 )
 

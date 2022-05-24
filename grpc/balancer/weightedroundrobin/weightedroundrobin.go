@@ -20,7 +20,7 @@
 package weightedroundrobin
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 // Name is the name of weighted_round_robin balancer.

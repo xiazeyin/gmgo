@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/pretty"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/xiazeyin/gmgo/grpc/internal/pretty"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 type watchInfoState int

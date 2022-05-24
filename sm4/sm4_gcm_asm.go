@@ -15,7 +15,7 @@ import (
 	"crypto/cipher"
 	goSubtle "crypto/subtle"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/subtle"
+	"github.com/xiazeyin/gmgo/internal/subtle"
 )
 
 // sm4CipherGCM implements crypto/cipher.gcmAble so that crypto/cipher.NewGCM

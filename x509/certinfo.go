@@ -11,7 +11,7 @@ import (
 	"math/big"
 	"net"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/sm2"
 )
 
 // Extra ASN1 OIDs that we may need to handle

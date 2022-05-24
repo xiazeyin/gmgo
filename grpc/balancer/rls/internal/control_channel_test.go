@@ -27,22 +27,22 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer/rls/internal/test/e2e"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal"
-	rlspb "gitee.com/zhaochuninhefei/gmgo/grpc/internal/proto/grpc_lookup_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/testdata"
 	"github.com/golang/protobuf/proto"
 	"github.com/google/go-cmp/cmp"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/balancer/rls/internal/test/e2e"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/internal"
+	rlspb "github.com/xiazeyin/gmgo/grpc/internal/proto/grpc_lookup_v1"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/testdata"
 )
 
 // TestControlChannelThrottled tests the case where the adaptive throttler

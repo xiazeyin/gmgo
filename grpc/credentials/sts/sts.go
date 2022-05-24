@@ -36,12 +36,12 @@ import (
 	"sync"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	tls "github.com/xiazeyin/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
 )
 
 const (

@@ -25,9 +25,9 @@ import (
 	"hash"
 	"runtime"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/cpu"
-	"gitee.com/zhaochuninhefei/gmgo/sm4"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/internal/cpu"
+	"github.com/xiazeyin/gmgo/sm4"
+	"github.com/xiazeyin/gmgo/x509"
 	"golang.org/x/crypto/chacha20poly1305"
 )
 

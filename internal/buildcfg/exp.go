@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/goexperiment"
+	"github.com/xiazeyin/gmgo/internal/goexperiment"
 )
 
 // Experiment contains the toolchain experiments enabled for the

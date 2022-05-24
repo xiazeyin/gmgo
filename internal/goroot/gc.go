@@ -13,7 +13,7 @@ import (
 	"strings"
 	"sync"
 
-	exec "gitee.com/zhaochuninhefei/gmgo/internal/execabs"
+	exec "github.com/xiazeyin/gmgo/internal/execabs"
 )
 
 // IsStandardPackage reports whether path is a standard package,

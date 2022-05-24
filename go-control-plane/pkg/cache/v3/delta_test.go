@@ -9,13 +9,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	discovery "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/discovery/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/types"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/v3"
-	rsrc "gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/resource/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/server/stream/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/test/resource/v3"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	discovery "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/discovery/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/types"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/v3"
+	rsrc "github.com/xiazeyin/gmgo/go-control-plane/pkg/resource/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/server/stream/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/test/resource/v3"
 )
 
 func TestSnapshotCacheDeltaWatch(t *testing.T) {

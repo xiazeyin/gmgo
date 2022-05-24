@@ -9,7 +9,7 @@ package http2
 
 import (
 	"context"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 // dialTLSWithContext opens a TLS connection.

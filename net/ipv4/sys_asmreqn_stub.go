@@ -10,7 +10,7 @@ package ipv4
 import (
 	"net"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
+	"github.com/xiazeyin/gmgo/net/internal/socket"
 )
 
 func (so *sockOpt) getIPMreqn(c *socket.Conn) (*net.Interface, error) {

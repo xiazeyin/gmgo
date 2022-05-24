@@ -8,7 +8,7 @@
 package http2
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptrace"
+	"github.com/xiazeyin/gmgo/gmhttp/httptrace"
 	"net/textproto"
 )
 

@@ -21,15 +21,15 @@ import (
 	"testing"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/insecure"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	xdstestutils "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/bootstrap"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/credentials/insecure"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	xdstestutils "github.com/xiazeyin/gmgo/grpc/xds/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
 	"google.golang.org/protobuf/testing/protocmp"
 )
 

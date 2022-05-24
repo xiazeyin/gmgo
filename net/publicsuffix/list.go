@@ -42,7 +42,7 @@
 // Instead, the calculation is data driven. This package provides a
 // pre-compiled snapshot of Mozilla's PSL (Public Suffix List) data at
 // https://publicsuffix.org/
-package publicsuffix // import "gitee.com/zhaochuninhefei/gmgo/net/publicsuffix"
+package publicsuffix // import "github.com/xiazeyin/gmgo/net/publicsuffix"
 
 // TODO: specify case sensitivity and leading/trailing dot behavior for
 // func PublicSuffix and func EffectiveTLDPlusOne.
@@ -51,7 +51,7 @@ import (
 	"fmt"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/cookiejar"
+	"github.com/xiazeyin/gmgo/gmhttp/cookiejar"
 )
 
 // List implements the cookiejar.PublicSuffixList interface by calling the

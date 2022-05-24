@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/testenv"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/internal/testenv"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 var rsaCertPEM = `-----BEGIN CERTIFICATE-----

@@ -4,7 +4,7 @@
 
 // Package netutil provides network utility functions, complementing the more
 // common ones in the net package.
-package netutil // import "gitee.com/zhaochuninhefei/gmgo/net/netutil"
+package netutil // import "github.com/xiazeyin/gmgo/net/netutil"
 
 import (
 	"net"

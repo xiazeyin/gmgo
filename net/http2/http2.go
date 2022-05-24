@@ -14,7 +14,7 @@
 //
 // See https://http2.golang.org/ for a test server running this code.
 //
-package http2 // import "gitee.com/zhaochuninhefei/gmgo/net/http2"
+package http2 // import "github.com/xiazeyin/gmgo/net/http2"
 
 import (
 	"bufio"
@@ -26,11 +26,11 @@ import (
 	"strings"
 	"sync"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/http/httpguts"
+	"github.com/xiazeyin/gmgo/net/http/httpguts"
 )
 
 var (

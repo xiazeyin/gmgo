@@ -24,9 +24,9 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 // TestSubConnsCount is the number of TestSubConns initialized as part of

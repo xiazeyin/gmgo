@@ -12,7 +12,7 @@
 // ICMP extensions for interface and next-hop identification are
 // defined in RFC 5837.
 // PROBE: A utility for probing interfaces is defined in RFC 8335.
-package icmp // import "gitee.com/zhaochuninhefei/gmgo/net/icmp"
+package icmp // import "github.com/xiazeyin/gmgo/net/icmp"
 
 import (
 	"encoding/binary"
@@ -20,9 +20,9 @@ import (
 	"net"
 	"runtime"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/iana"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv4"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv6"
+	"github.com/xiazeyin/gmgo/net/internal/iana"
+	"github.com/xiazeyin/gmgo/net/ipv4"
+	"github.com/xiazeyin/gmgo/net/ipv6"
 )
 
 // BUG(mikio): This package is not implemented on JS, NaCl and Plan 9.

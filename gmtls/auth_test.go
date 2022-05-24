@@ -16,7 +16,7 @@ package gmtls
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 func TestSignatureSelection(t *testing.T) {

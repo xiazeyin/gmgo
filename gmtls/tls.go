@@ -34,8 +34,8 @@ import (
 	"os"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 // 生成tls通信Server

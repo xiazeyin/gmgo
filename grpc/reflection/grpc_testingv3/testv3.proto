@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "gitee.com/zhaochuninhefei/gmgo/grpc/reflection/grpc_testingv3";
+option go_package = "github.com/xiazeyin/gmgo/grpc/reflection/grpc_testingv3";
 
 package grpc.testingv3;
 

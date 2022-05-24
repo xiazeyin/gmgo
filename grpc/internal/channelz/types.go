@@ -24,8 +24,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
 )
 
 // entry represents a node in the channelz database.

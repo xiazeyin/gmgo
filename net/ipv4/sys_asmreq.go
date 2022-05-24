@@ -12,7 +12,7 @@ import (
 	"net"
 	"unsafe"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
+	"github.com/xiazeyin/gmgo/net/internal/socket"
 )
 
 var errNoSuchInterface = errors.New("no such interface")

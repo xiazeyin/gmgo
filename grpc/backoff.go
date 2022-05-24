@@ -24,7 +24,7 @@ package grpc
 import (
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/backoff"
+	"github.com/xiazeyin/gmgo/grpc/backoff"
 )
 
 // DefaultBackoffConfig uses values specified for backoff in

@@ -9,8 +9,8 @@ import (
 	"net"
 	"runtime"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv4"
+	"github.com/xiazeyin/gmgo/net/internal/socket"
+	"github.com/xiazeyin/gmgo/net/ipv4"
 )
 
 // freebsdVersion is set in sys_freebsd.go.

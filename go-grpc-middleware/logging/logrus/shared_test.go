@@ -6,14 +6,14 @@ import (
 	"io"
 	"testing"
 
-	grpc_logrus "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/logging/logrus"
-	grpc_ctxtags "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags"
-	ctx_logrus "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags/logrus"
-	grpc_testing "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing"
-	pb_testproto "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing/testproto"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
 	"github.com/sirupsen/logrus"
+	grpc_logrus "github.com/xiazeyin/gmgo/go-grpc-middleware/logging/logrus"
+	grpc_ctxtags "github.com/xiazeyin/gmgo/go-grpc-middleware/tags"
+	ctx_logrus "github.com/xiazeyin/gmgo/go-grpc-middleware/tags/logrus"
+	grpc_testing "github.com/xiazeyin/gmgo/go-grpc-middleware/testing"
+	pb_testproto "github.com/xiazeyin/gmgo/go-grpc-middleware/testing/testproto"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 var (

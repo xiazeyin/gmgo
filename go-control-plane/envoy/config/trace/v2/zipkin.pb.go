@@ -8,10 +8,10 @@ package envoy_config_trace_v2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/annotations"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
+	_ "github.com/xiazeyin/gmgo/go-control-plane/envoy/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

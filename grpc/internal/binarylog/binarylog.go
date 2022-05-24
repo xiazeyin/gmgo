@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"os"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcutil"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcutil"
 )
 
 // Logger is the global binary logger. It can be used to get binary logger for

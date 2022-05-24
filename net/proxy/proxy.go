@@ -4,7 +4,7 @@
 
 // Package proxy provides support for a variety of protocols to proxy network
 // data.
-package proxy // import "gitee.com/zhaochuninhefei/gmgo/net/proxy"
+package proxy // import "github.com/xiazeyin/gmgo/net/proxy"
 
 import (
 	"errors"

@@ -4,9 +4,9 @@
 package grpc_recovery
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 // RecoveryHandlerFunc is a function that recovers from the panic `p` by returning an `error`.

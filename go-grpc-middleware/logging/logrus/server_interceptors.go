@@ -6,12 +6,12 @@ import (
 	"path"
 	"time"
 
-	grpc_middleware "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware"
-	"gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/logging/logrus/ctxlogrus"
-	ctx_logrus "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags/logrus"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
 	"github.com/sirupsen/logrus"
+	grpc_middleware "github.com/xiazeyin/gmgo/go-grpc-middleware"
+	"github.com/xiazeyin/gmgo/go-grpc-middleware/logging/logrus/ctxlogrus"
+	ctx_logrus "github.com/xiazeyin/gmgo/go-grpc-middleware/tags/logrus"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 var (

@@ -21,9 +21,9 @@ package clustermanager
 import (
 	"context"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 // pickerGroup contains a list of pickers. If the picker isn't ready, the pick

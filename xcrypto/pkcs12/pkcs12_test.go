@@ -10,7 +10,7 @@ import (
 	"encoding/pem"
 	"testing"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 func TestPfx(t *testing.T) {

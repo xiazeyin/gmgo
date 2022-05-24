@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpclog"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 

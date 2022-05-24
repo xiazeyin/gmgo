@@ -9,18 +9,18 @@ import (
 	"testing"
 	"time"
 
-	pb_testproto "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing/testproto"
+	pb_testproto "github.com/xiazeyin/gmgo/go-grpc-middleware/testing/testproto"
 
-	grpc_middleware "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware"
-	grpc_retry "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/retry"
-	grpc_testing "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing"
+	grpc_middleware "github.com/xiazeyin/gmgo/go-grpc-middleware"
+	grpc_retry "github.com/xiazeyin/gmgo/go-grpc-middleware/retry"
+	grpc_testing "github.com/xiazeyin/gmgo/go-grpc-middleware/testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 var (

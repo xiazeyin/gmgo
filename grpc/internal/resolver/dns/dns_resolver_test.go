@@ -30,15 +30,15 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	grpclbstate "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/grpclb/state"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/envconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/leakcheck"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	grpclbstate "github.com/xiazeyin/gmgo/grpc/balancer/grpclb/state"
+	"github.com/xiazeyin/gmgo/grpc/internal/envconfig"
+	"github.com/xiazeyin/gmgo/grpc/internal/leakcheck"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
 )
 
 func TestMain(m *testing.M) {

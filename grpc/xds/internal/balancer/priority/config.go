@@ -22,8 +22,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	internalserviceconfig "gitee.com/zhaochuninhefei/gmgo/grpc/internal/serviceconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
+	internalserviceconfig "github.com/xiazeyin/gmgo/grpc/internal/serviceconfig"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
 )
 
 // Child is a child of priority balancer.

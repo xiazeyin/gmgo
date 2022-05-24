@@ -7,16 +7,16 @@ import (
 	"testing"
 	"time"
 
-	grpc_middleware "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware"
-	grpc_logrus "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/logging/logrus"
-	grpc_ctxtags "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags"
-	pb_testproto "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing/testproto"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
+	grpc_middleware "github.com/xiazeyin/gmgo/go-grpc-middleware"
+	grpc_logrus "github.com/xiazeyin/gmgo/go-grpc-middleware/logging/logrus"
+	grpc_ctxtags "github.com/xiazeyin/gmgo/go-grpc-middleware/tags"
+	pb_testproto "github.com/xiazeyin/gmgo/go-grpc-middleware/testing/testproto"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
 )
 
 func TestLogrusServerSuite(t *testing.T) {

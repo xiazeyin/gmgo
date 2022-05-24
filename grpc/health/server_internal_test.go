@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	healthpb "gitee.com/zhaochuninhefei/gmgo/grpc/health/grpc_health_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
+	healthpb "github.com/xiazeyin/gmgo/grpc/health/grpc_health_v1"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
 )
 
 type s struct {

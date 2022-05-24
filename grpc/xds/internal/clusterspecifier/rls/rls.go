@@ -23,17 +23,17 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/envconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/proto/grpc_lookup_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/clusterspecifier"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/internal/envconfig"
+	"github.com/xiazeyin/gmgo/grpc/internal/proto/grpc_lookup_v1"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/clusterspecifier"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/types/known/anypb"
 
 	// Blank import to init the RLS LB policy.
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/rls"
+	_ "github.com/xiazeyin/gmgo/grpc/balancer/rls"
 )
 
 const rlsBalancerName = "rls_experimental"

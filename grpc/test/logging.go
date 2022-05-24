@@ -18,6 +18,6 @@
 
 package test
 
-import "gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
+import "github.com/xiazeyin/gmgo/grpc/grpclog"
 
 var logger = grpclog.Component("testing")

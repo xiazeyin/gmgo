@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/cgi"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/gmhttp/cgi"
 )
 
 // request holds the state for an in-progress request. As soon as it's complete,

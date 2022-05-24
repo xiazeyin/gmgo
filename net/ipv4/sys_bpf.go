@@ -10,8 +10,8 @@ package ipv4
 import (
 	"unsafe"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/bpf"
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
+	"github.com/xiazeyin/gmgo/net/bpf"
+	"github.com/xiazeyin/gmgo/net/internal/socket"
 	"golang.org/x/sys/unix"
 )
 

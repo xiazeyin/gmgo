@@ -28,14 +28,14 @@ import (
 	"sync"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/benchmark"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/syscall"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/testdata"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/benchmark"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/internal/syscall"
+	testpb "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
+	"github.com/xiazeyin/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/testdata"
 )
 
 var (

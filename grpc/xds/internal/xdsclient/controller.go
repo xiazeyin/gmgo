@@ -18,12 +18,12 @@
 package xdsclient
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/bootstrap"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/controller"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/load"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/pubsub"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/controller"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/load"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/pubsub"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 type controllerInterface interface {

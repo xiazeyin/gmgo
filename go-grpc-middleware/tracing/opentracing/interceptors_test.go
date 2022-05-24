@@ -11,23 +11,23 @@ import (
 
 	"fmt"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
 	"io"
 
-	grpc_middleware "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware"
-	grpc_ctxtags "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags"
-	grpc_testing "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing"
-	pb_testproto "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing/testproto"
-	grpc_opentracing "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tracing/opentracing"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/mocktracer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
+	grpc_middleware "github.com/xiazeyin/gmgo/go-grpc-middleware"
+	grpc_ctxtags "github.com/xiazeyin/gmgo/go-grpc-middleware/tags"
+	grpc_testing "github.com/xiazeyin/gmgo/go-grpc-middleware/testing"
+	pb_testproto "github.com/xiazeyin/gmgo/go-grpc-middleware/testing/testproto"
+	grpc_opentracing "github.com/xiazeyin/gmgo/go-grpc-middleware/tracing/opentracing"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 var (

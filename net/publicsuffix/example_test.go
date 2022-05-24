@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/publicsuffix"
+	"github.com/xiazeyin/gmgo/net/publicsuffix"
 )
 
 // This example demonstrates looking up several domains' eTLDs (effective Top

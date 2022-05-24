@@ -9,7 +9,7 @@ import (
 	"net"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/iana"
+	"github.com/xiazeyin/gmgo/net/internal/iana"
 )
 
 const (

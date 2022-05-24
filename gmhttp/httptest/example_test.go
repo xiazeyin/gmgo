@@ -9,9 +9,9 @@ import (
 	"io"
 	"log"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
-	"gitee.com/zhaochuninhefei/zcgolog/zclog"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/zcgolog/zclog"
 )
 
 func ExampleResponseRecorder() {

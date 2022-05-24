@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal/ascii"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/gmhttp/internal/ascii"
 )
 
 // PublicSuffixList provides the public suffix of a domain. For example:

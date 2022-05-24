@@ -18,8 +18,8 @@
 package xdsclient
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/load"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/load"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // ReportLoad starts an load reporting stream to the given server. If the server

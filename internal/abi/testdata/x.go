@@ -4,7 +4,7 @@
 
 package x
 
-import "gitee.com/zhaochuninhefei/gmgo/internal/abi"
+import "github.com/xiazeyin/gmgo/internal/abi"
 
 func Fn0() // defined in assembly
 

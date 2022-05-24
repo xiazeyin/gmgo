@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	. "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httputil"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	. "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httputil"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 type clientServerTest struct {
@@ -1489,11 +1489,11 @@ func testWriteHeaderAfterWrite(t *testing.T, h2, hijack bool) {
 		return
 	}
 	gotLog := strings.TrimSpace(errorLog.String())
-	wantLog := "http: superfluous response.WriteHeader call from gitee.com/zhaochuninhefei/gmgo/gmhttp_test.testWriteHeaderAfterWrite.func1 (clientserver_test.go:"
-	// wantLog := "http: superfluous response.WriteHeader call from gitee.com/zhaochuninhefei/gmgo/"
+	wantLog := "http: superfluous response.WriteHeader call from github.com/xiazeyin/gmgo/gmhttp_test.testWriteHeaderAfterWrite.func1 (clientserver_test.go:"
+	// wantLog := "http: superfluous response.WriteHeader call from github.com/xiazeyin/gmgo/"
 	if hijack {
-		wantLog = "http: response.WriteHeader on hijacked connection from gitee.com/zhaochuninhefei/gmgo/gmhttp_test.testWriteHeaderAfterWrite.func1 (clientserver_test.go:"
-		// wantLog = "http: response.WriteHeader on hijacked connection from gitee.com/zhaochuninhefei/gmgo/"
+		wantLog = "http: response.WriteHeader on hijacked connection from github.com/xiazeyin/gmgo/gmhttp_test.testWriteHeaderAfterWrite.func1 (clientserver_test.go:"
+		// wantLog = "http: response.WriteHeader on hijacked connection from github.com/xiazeyin/gmgo/"
 	}
 	if !strings.HasPrefix(gotLog, wantLog) {
 		t.Errorf("stderr output = %q; want %q", gotLog, wantLog)

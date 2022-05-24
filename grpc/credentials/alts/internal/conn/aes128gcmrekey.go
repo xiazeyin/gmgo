@@ -21,7 +21,7 @@ package conn
 import (
 	"crypto/cipher"
 
-	core "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal"
+	core "github.com/xiazeyin/gmgo/grpc/credentials/alts/internal"
 )
 
 const (

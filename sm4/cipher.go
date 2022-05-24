@@ -12,7 +12,7 @@ import (
 	"crypto/cipher"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/subtle"
+	"github.com/xiazeyin/gmgo/internal/subtle"
 )
 
 // BlockSize the sm4 block size in bytes.

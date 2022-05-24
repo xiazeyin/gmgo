@@ -6,8 +6,8 @@
 package grpc_middleware
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 // ChainUnaryServer creates a single interceptor out of a chain of many interceptors.

@@ -20,7 +20,7 @@
 package rls
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
 )
 
 const rlsBalancerName = "rls_experimental"

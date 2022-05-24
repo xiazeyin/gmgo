@@ -12,7 +12,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/fmtsort"
+	"github.com/xiazeyin/gmgo/internal/fmtsort"
 )
 
 var compareTests = [][]reflect.Value{

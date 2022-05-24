@@ -18,10 +18,10 @@ import (
 	"flag"
 	"os"
 
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/internal/example"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/server/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/test/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/internal/example"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/server/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/test/v3"
 )
 
 var (

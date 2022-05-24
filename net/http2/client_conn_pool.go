@@ -11,9 +11,9 @@ import (
 	"errors"
 	"sync"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 // ClientConnPool manages a pool of HTTP/2 client connections.

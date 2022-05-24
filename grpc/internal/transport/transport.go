@@ -32,14 +32,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/stats"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/tap"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/keepalive"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/stats"
+	"github.com/xiazeyin/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/tap"
 )
 
 const logLevel = 2

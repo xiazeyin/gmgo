@@ -7,9 +7,9 @@ package websocket_test
 import (
 	"io"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/websocket"
+	"github.com/xiazeyin/gmgo/net/websocket"
 )
 
 // Echo the data received on the WebSocket.

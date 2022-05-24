@@ -9,7 +9,7 @@ package reflectlite
 import (
 	"unsafe"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/unsafeheader"
+	"github.com/xiazeyin/gmgo/internal/unsafeheader"
 )
 
 // Type is the representation of a Go type.

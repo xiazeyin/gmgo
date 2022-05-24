@@ -21,10 +21,10 @@ import (
 	"regexp"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/xds/matcher"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/clusterspecifier"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/httpfilter"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/internal/xds/matcher"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/clusterspecifier"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/httpfilter"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 

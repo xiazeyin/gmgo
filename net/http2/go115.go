@@ -10,7 +10,7 @@ package http2
 import (
 	"context"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 // dialTLSWithContext uses tls.Dialer, added in Go 1.15, to open a TLS

@@ -28,11 +28,11 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/server/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/test"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/test/resource/v3"
-	testv3 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/test/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/server/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/test"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/test/resource/v3"
+	testv3 "github.com/xiazeyin/gmgo/go-control-plane/pkg/test/v3"
 )
 
 var (

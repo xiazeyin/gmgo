@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	"gitee.com/zhaochuninhefei/zcgolog/zclog"
+	"github.com/xiazeyin/gmgo/x509"
+	"github.com/xiazeyin/zcgolog/zclog"
 )
 
 // maxClientPSKIdentities is the number of client PSK identities the server will

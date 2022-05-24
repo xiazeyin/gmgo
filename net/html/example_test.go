@@ -10,7 +10,7 @@ import (
 	"log"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/html"
+	"github.com/xiazeyin/gmgo/net/html"
 )
 
 func ExampleParse() {

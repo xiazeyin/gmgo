@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/cache"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
+	"github.com/xiazeyin/gmgo/grpc/internal/cache"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 // subBalancerWrapper is used to keep the configurations that will be used to start

@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcrand"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcrand"
 )
 
 // For overriding in unittests.

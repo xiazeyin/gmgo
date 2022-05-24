@@ -3,9 +3,9 @@ package grpc_opentracing
 import (
 	"strings"
 
-	grpc_ctxtags "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
 	opentracing "github.com/opentracing/opentracing-go"
+	grpc_ctxtags "github.com/xiazeyin/gmgo/go-grpc-middleware/tags"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
 )
 
 const (

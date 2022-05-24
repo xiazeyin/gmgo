@@ -21,9 +21,9 @@ package hierarchy
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/attributes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
 	"github.com/google/go-cmp/cmp"
+	"github.com/xiazeyin/gmgo/grpc/attributes"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 func TestGet(t *testing.T) {

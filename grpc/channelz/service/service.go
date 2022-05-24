@@ -23,17 +23,17 @@ import (
 	"context"
 	"net"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	channelzgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/channelz/grpc_channelz_v1"
-	channelzpb "gitee.com/zhaochuninhefei/gmgo/grpc/channelz/grpc_channelz_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/channelz"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
 	"github.com/golang/protobuf/ptypes"
 	wrpb "github.com/golang/protobuf/ptypes/wrappers"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	channelzgrpc "github.com/xiazeyin/gmgo/grpc/channelz/grpc_channelz_v1"
+	channelzpb "github.com/xiazeyin/gmgo/grpc/channelz/grpc_channelz_v1"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/channelz"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 func init() {

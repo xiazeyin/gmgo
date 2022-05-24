@@ -7,8 +7,8 @@ package icmp
 import (
 	"encoding/binary"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv4"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv6"
+	"github.com/xiazeyin/gmgo/net/ipv4"
+	"github.com/xiazeyin/gmgo/net/ipv6"
 )
 
 // An Extension represents an ICMP extension.

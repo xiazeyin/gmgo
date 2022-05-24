@@ -25,9 +25,9 @@ package test_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/admin/test"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds"
+	"github.com/xiazeyin/gmgo/grpc/admin/test"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	_ "github.com/xiazeyin/gmgo/grpc/xds"
 )
 
 func TestRegisterWithCSDS(t *testing.T) {

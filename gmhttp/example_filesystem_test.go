@@ -9,7 +9,7 @@ import (
 	"log"
 	"strings"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 // containsDotFile reports whether name contains a path element starting with a period.

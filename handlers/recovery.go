@@ -4,7 +4,7 @@ import (
 	"log"
 	"runtime/debug"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 // RecoveryHandlerLogger is an interface used by the recovering handler to print logs.

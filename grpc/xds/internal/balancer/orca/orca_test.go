@@ -20,11 +20,11 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
 	orcapb "github.com/cncf/xds/go/xds/data/orca/v3"
 	"github.com/golang/protobuf/proto"
 	"github.com/google/go-cmp/cmp"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
 )
 
 var (

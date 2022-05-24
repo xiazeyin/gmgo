@@ -21,11 +21,11 @@ package clusterimpl
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/roundrobin"
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/weightedtarget"
-	internalserviceconfig "gitee.com/zhaochuninhefei/gmgo/grpc/internal/serviceconfig"
 	"github.com/google/go-cmp/cmp"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	_ "github.com/xiazeyin/gmgo/grpc/balancer/roundrobin"
+	_ "github.com/xiazeyin/gmgo/grpc/balancer/weightedtarget"
+	internalserviceconfig "github.com/xiazeyin/gmgo/grpc/internal/serviceconfig"
 )
 
 const (

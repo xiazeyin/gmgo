@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"strconv"
 
-	. "gitee.com/zhaochuninhefei/gmgo/internal/reflectlite"
+	. "github.com/xiazeyin/gmgo/internal/reflectlite"
 )
 
 // valueToString returns a textual representation of the reflection value val.

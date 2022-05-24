@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv4"
+	"github.com/xiazeyin/gmgo/net/internal/socket"
+	"github.com/xiazeyin/gmgo/net/ipv4"
 )
 
 func TestParseIPv4Header(t *testing.T) {

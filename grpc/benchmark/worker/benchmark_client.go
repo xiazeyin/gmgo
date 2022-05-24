@@ -26,17 +26,17 @@ import (
 	"sync"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/benchmark"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/benchmark/stats"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/syscall"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/testdata"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/benchmark"
+	"github.com/xiazeyin/gmgo/grpc/benchmark/stats"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/internal/syscall"
+	"github.com/xiazeyin/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/testdata"
 
-	testgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
+	testgrpc "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
+	testpb "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
 )
 
 var caFile = flag.String("ca_file", "", "The file containing the CA root cert file")

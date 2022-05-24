@@ -7,7 +7,7 @@ package ipv4
 import (
 	"net"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/bpf"
+	"github.com/xiazeyin/gmgo/net/bpf"
 )
 
 // MulticastTTL returns the time-to-live field value for outgoing

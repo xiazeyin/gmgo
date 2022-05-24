@@ -34,10 +34,10 @@ import (
 	"strconv"
 	"strings"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
-	"gitee.com/zhaochuninhefei/gmgo/net/http2"
-	"gitee.com/zhaochuninhefei/gmgo/net/http2/hpack"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	tls "github.com/xiazeyin/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/net/http2"
+	"github.com/xiazeyin/gmgo/net/http2/hpack"
 	"golang.org/x/term"
 )
 

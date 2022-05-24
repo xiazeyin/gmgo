@@ -13,9 +13,9 @@ import (
 	"runtime"
 	"syscall"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/iana"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv4"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv6"
+	"github.com/xiazeyin/gmgo/net/internal/iana"
+	"github.com/xiazeyin/gmgo/net/ipv4"
+	"github.com/xiazeyin/gmgo/net/ipv6"
 )
 
 const sysIP_STRIPHDR = 0x17 // for now only darwin supports this option

@@ -5,7 +5,7 @@
 package poll
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/internal/itoa"
+	"github.com/xiazeyin/gmgo/internal/itoa"
 	"runtime"
 	"sync"
 	"syscall"

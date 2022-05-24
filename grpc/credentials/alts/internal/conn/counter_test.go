@@ -22,7 +22,7 @@ import (
 	"bytes"
 	"testing"
 
-	core "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal"
+	core "github.com/xiazeyin/gmgo/grpc/credentials/alts/internal"
 )
 
 const (

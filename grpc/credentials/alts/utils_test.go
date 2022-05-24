@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	altspb "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal/proto/grpc_gcp"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/peer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	altspb "github.com/xiazeyin/gmgo/grpc/credentials/alts/internal/proto/grpc_gcp"
+	"github.com/xiazeyin/gmgo/grpc/peer"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 const (

@@ -21,11 +21,11 @@ package clustermanager
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/weightedtarget"
-	internalserviceconfig "gitee.com/zhaochuninhefei/gmgo/grpc/internal/serviceconfig"
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/balancer/cdsbalancer"
 	"github.com/google/go-cmp/cmp"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	_ "github.com/xiazeyin/gmgo/grpc/balancer/weightedtarget"
+	internalserviceconfig "github.com/xiazeyin/gmgo/grpc/internal/serviceconfig"
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/balancer/cdsbalancer"
 )
 
 const (

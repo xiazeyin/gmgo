@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/tls/certprovider"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/testdata"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	"github.com/xiazeyin/gmgo/grpc/credentials/tls/certprovider"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/testdata"
 )
 
 const (

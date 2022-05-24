@@ -4,7 +4,7 @@
 
 package ipv4
 
-import "gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
+import "github.com/xiazeyin/gmgo/net/internal/socket"
 
 // Sticky socket options
 const (

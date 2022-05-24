@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/sockstest"
-	"gitee.com/zhaochuninhefei/gmgo/net/nettest"
+	"github.com/xiazeyin/gmgo/net/internal/sockstest"
+	"github.com/xiazeyin/gmgo/net/nettest"
 )
 
 func TestDial(t *testing.T) {

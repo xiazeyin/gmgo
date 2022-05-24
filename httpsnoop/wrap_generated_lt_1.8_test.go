@@ -4,8 +4,8 @@
 package httpsnoop
 
 import (
+	http "github.com/xiazeyin/gmgo/gmhttp"
 	"io"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
 	"testing"
 )
 

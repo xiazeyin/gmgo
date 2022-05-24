@@ -17,7 +17,7 @@ import (
 
 	"google.golang.org/protobuf/types/known/anypb"
 
-	_type "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type"
+	_type "github.com/xiazeyin/gmgo/go-control-plane/envoy/type"
 )
 
 // ensure the imports are used

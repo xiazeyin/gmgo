@@ -23,10 +23,10 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer/base"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
-	internalgrpclog "gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/balancer/base"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
+	internalgrpclog "github.com/xiazeyin/gmgo/grpc/internal/grpclog"
 )
 
 // TODO(easwars): Remove this once all RLS code is merged.

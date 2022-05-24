@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/tls/certprovider"
-	xdsinternal "gitee.com/zhaochuninhefei/gmgo/grpc/internal/credentials/xds"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/xiazeyin/gmgo/grpc/credentials/tls/certprovider"
+	xdsinternal "github.com/xiazeyin/gmgo/grpc/internal/credentials/xds"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // connWrapper is a thin wrapper around a net.Conn returned by Accept(). It

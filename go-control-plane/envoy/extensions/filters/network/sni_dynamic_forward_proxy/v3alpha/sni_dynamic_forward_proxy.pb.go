@@ -8,9 +8,9 @@ package envoy_extensions_filters_network_sni_dynamic_forward_proxy_v3alpha
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v3 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/common/dynamic_forward_proxy/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
+	v3 "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/common/dynamic_forward_proxy/v3"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

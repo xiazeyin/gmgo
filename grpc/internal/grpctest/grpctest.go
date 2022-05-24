@@ -25,7 +25,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/leakcheck"
+	"github.com/xiazeyin/gmgo/grpc/internal/leakcheck"
 )
 
 var lcFailed uint32

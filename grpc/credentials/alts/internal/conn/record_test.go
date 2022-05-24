@@ -28,8 +28,8 @@ import (
 	"reflect"
 	"testing"
 
-	core "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
+	core "github.com/xiazeyin/gmgo/grpc/credentials/alts/internal"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
 )
 
 type s struct {

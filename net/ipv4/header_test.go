@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
+	"github.com/xiazeyin/gmgo/net/internal/socket"
 )
 
 type headerTest struct {

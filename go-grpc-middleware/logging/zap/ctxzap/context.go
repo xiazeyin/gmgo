@@ -1,8 +1,8 @@
 package ctxzap
 
 import (
-	grpc_ctxtags "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
+	grpc_ctxtags "github.com/xiazeyin/gmgo/go-grpc-middleware/tags"
+	"github.com/xiazeyin/gmgo/net/context"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

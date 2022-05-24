@@ -22,7 +22,7 @@ import (
 	"regexp"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
 )
 
 func TestHeaderExactMatcherMatch(t *testing.T) {

@@ -35,13 +35,13 @@ import (
 	"testing"
 	"time"
 
-	. "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httputil"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal/testcert"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
-	"gitee.com/zhaochuninhefei/gmgo/internal/testenv"
+	. "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httputil"
+	"github.com/xiazeyin/gmgo/gmhttp/internal"
+	"github.com/xiazeyin/gmgo/gmhttp/internal/testcert"
+	tls "github.com/xiazeyin/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/internal/testenv"
 )
 
 type dummyAddr string

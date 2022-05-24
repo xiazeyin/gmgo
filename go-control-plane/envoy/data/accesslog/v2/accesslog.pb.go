@@ -8,13 +8,13 @@ package envoy_data_accesslog_v2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	any "github.com/golang/protobuf/ptypes/any"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

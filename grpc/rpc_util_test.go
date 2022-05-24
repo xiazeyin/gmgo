@@ -26,14 +26,14 @@ import (
 	"reflect"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/encoding"
-	protoenc "gitee.com/zhaochuninhefei/gmgo/grpc/encoding/proto"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/transport"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
-	perfpb "gitee.com/zhaochuninhefei/gmgo/grpc/test/codec_perf"
 	"github.com/golang/protobuf/proto"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/encoding"
+	protoenc "github.com/xiazeyin/gmgo/grpc/encoding/proto"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/internal/transport"
+	"github.com/xiazeyin/gmgo/grpc/status"
+	perfpb "github.com/xiazeyin/gmgo/grpc/test/codec_perf"
 )
 
 type fullReader struct {

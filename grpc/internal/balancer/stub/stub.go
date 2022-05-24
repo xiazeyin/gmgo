@@ -19,7 +19,7 @@
 // Package stub implements a balancer for testing purposes.
 package stub
 
-import "gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
+import "github.com/xiazeyin/gmgo/grpc/balancer"
 
 // BalancerFuncs contains all balancer.Balancer functions with a preceding
 // *BalancerData parameter for passing additional instance information.  Any

@@ -29,15 +29,15 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httputil"
+	"github.com/xiazeyin/gmgo/gmhttp/httputil"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	icredentials "gitee.com/zhaochuninhefei/gmgo/grpc/internal/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
 	"github.com/google/go-cmp/cmp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	icredentials "github.com/xiazeyin/gmgo/grpc/internal/credentials"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 const (

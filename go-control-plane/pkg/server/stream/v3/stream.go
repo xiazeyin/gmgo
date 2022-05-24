@@ -1,9 +1,9 @@
 package stream
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc"
 
-	discovery "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/discovery/v3"
+	discovery "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/discovery/v3"
 )
 
 // Generic RPC stream.

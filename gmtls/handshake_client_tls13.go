@@ -24,8 +24,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	"gitee.com/zhaochuninhefei/zcgolog/zclog"
+	"github.com/xiazeyin/gmgo/x509"
+	"github.com/xiazeyin/zcgolog/zclog"
 )
 
 // tls1.3客户端握手状态

@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv4"
-	"gitee.com/zhaochuninhefei/gmgo/net/nettest"
+	"github.com/xiazeyin/gmgo/net/ipv4"
+	"github.com/xiazeyin/gmgo/net/nettest"
 )
 
 var udpMultipleGroupListenerTests = []net.Addr{

@@ -25,13 +25,13 @@ import (
 	"net"
 	"strings"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/interop"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/tap"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/credentials/alts"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/interop"
+	"github.com/xiazeyin/gmgo/grpc/tap"
 
-	testgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
+	testgrpc "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
 )
 
 const (

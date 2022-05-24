@@ -4,7 +4,7 @@
 
 package cookiejar_test
 
-import "gitee.com/zhaochuninhefei/gmgo/gmhttp/cookiejar"
+import "github.com/xiazeyin/gmgo/gmhttp/cookiejar"
 
 type dummypsl struct {
 	List cookiejar.PublicSuffixList

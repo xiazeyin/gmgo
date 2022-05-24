@@ -28,15 +28,15 @@ import (
 	"testing"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/stats"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
 	"github.com/golang/protobuf/proto"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/stats"
+	"github.com/xiazeyin/gmgo/grpc/status"
 
-	testgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
+	testgrpc "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
+	testpb "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
 )
 
 const defaultTestTimeout = 10 * time.Second

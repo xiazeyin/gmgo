@@ -16,17 +16,17 @@
 package test
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc"
 
-	accessloggrpc "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/accesslog/v3"
-	clusterservice "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/cluster/v3"
-	discoverygrpc "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/discovery/v3"
-	endpointservice "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/endpoint/v3"
-	listenerservice "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/listener/v3"
-	routeservice "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/route/v3"
-	runtimeservice "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/runtime/v3"
-	secretservice "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/secret/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/server/v3"
+	accessloggrpc "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/accesslog/v3"
+	clusterservice "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/cluster/v3"
+	discoverygrpc "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/discovery/v3"
+	endpointservice "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/endpoint/v3"
+	listenerservice "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/listener/v3"
+	routeservice "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/route/v3"
+	runtimeservice "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/runtime/v3"
+	secretservice "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/secret/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/server/v3"
 )
 
 // RegisterAccessLogServer starts an accessloggrpc service.

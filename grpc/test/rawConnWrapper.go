@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/http2"
-	"gitee.com/zhaochuninhefei/gmgo/net/http2/hpack"
+	"github.com/xiazeyin/gmgo/net/http2"
+	"github.com/xiazeyin/gmgo/net/http2/hpack"
 )
 
 type listenerWrapper struct {

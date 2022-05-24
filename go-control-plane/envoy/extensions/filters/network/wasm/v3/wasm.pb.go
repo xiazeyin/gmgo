@@ -8,8 +8,8 @@ package envoy_extensions_filters_network_wasm_v3
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v3 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/wasm/v3"
 	proto "github.com/golang/protobuf/proto"
+	v3 "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/wasm/v3"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

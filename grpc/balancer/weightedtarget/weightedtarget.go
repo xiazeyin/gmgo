@@ -25,15 +25,15 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer/weightedtarget/weightedaggregator"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/balancergroup"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/hierarchy"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/pretty"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/wrr"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/balancer/weightedtarget/weightedaggregator"
+	"github.com/xiazeyin/gmgo/grpc/internal/balancergroup"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/hierarchy"
+	"github.com/xiazeyin/gmgo/grpc/internal/pretty"
+	"github.com/xiazeyin/gmgo/grpc/internal/wrr"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
 )
 
 // Name is the name of the weighted_target balancer.

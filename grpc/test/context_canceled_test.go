@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/encoding/gzip"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/stubserver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/test/grpc_testing"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/encoding/gzip"
+	"github.com/xiazeyin/gmgo/grpc/internal/stubserver"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/status"
+	testpb "github.com/xiazeyin/gmgo/grpc/test/grpc_testing"
 )
 
 func (s) TestContextCanceled(t *testing.T) {

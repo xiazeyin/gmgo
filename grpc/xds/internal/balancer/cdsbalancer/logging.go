@@ -21,8 +21,8 @@ package cdsbalancer
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	internalgrpclog "gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	internalgrpclog "github.com/xiazeyin/gmgo/grpc/internal/grpclog"
 )
 
 const prefix = "[cds-lb %p] "

@@ -8,12 +8,12 @@ package envoy_api_v2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	endpoint "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/endpoint"
-	_type "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
+	endpoint "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/endpoint"
+	_type "github.com/xiazeyin/gmgo/go-control-plane/envoy/type"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

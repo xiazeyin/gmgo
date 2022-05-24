@@ -22,13 +22,13 @@ package router
 import (
 	"fmt"
 
-	iresolver "gitee.com/zhaochuninhefei/gmgo/grpc/internal/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/httpfilter"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
+	iresolver "github.com/xiazeyin/gmgo/grpc/internal/resolver"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/httpfilter"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	pb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/filters/http/router/v3"
+	pb "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/filters/http/router/v3"
 )
 
 // TypeURL is the message type for the Router configuration.

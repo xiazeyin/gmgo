@@ -23,8 +23,8 @@ package glogger
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
 	"github.com/golang/glog"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
 )
 
 const d = 2

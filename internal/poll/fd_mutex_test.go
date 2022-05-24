@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	. "gitee.com/zhaochuninhefei/gmgo/internal/poll"
+	. "github.com/xiazeyin/gmgo/internal/poll"
 )
 
 func TestMutexLock(t *testing.T) {

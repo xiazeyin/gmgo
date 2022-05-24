@@ -8,8 +8,8 @@ import (
 	"net"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/bpf"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv4"
+	"github.com/xiazeyin/gmgo/net/bpf"
+	"github.com/xiazeyin/gmgo/net/ipv4"
 )
 
 func TestVMLoadAbsoluteOffsetOutOfBounds(t *testing.T) {

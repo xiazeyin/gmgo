@@ -15,7 +15,7 @@ gmgo
 > 在x509与gmtls的实现中，国密算法采用的是基于`emmansun/gmsm`的国密实现，该开源项目已实现利用amd64与arm64架构CPU实现对应国密算法的硬件加速。sm2soft/sm3soft/sm4soft是对应国密算法的纯软实现，仅用作验证与参考。
 
 # gmgo的包路径
-go package： `gitee.com/zhaochuninhefei/gmgo`
+go package： `github.com/xiazeyin/gmgo`
 
 # 国密标准参考
 本项目涉及到的国密有SM2、SM3和SM4，相关国密标准如下：

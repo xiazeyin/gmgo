@@ -23,11 +23,11 @@ import (
 	"io"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/channelz"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/transport"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/internal/channelz"
+	"github.com/xiazeyin/gmgo/grpc/internal/transport"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 // pickerWrapper is a wrapper of balancer.Picker. It blocks on certain pick

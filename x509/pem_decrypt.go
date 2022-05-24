@@ -25,7 +25,7 @@ import (
 	"io"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm4"
+	"github.com/xiazeyin/gmgo/sm4"
 )
 
 type PEMCipher int

@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	. "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	. "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 var sniffTests = []struct {

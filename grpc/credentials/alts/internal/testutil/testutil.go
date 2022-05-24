@@ -26,7 +26,7 @@ import (
 	"net"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal/conn"
+	"github.com/xiazeyin/gmgo/grpc/credentials/alts/internal/conn"
 )
 
 // Stats is used to collect statistics about concurrent handshake calls.

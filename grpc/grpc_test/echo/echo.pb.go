@@ -14,11 +14,11 @@ It has these top-level messages:
 package echo
 
 import (
-	math "math"
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
+	grpc "github.com/xiazeyin/gmgo/grpc"
 	context "golang.org/x/net/context"
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
+	math "math"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

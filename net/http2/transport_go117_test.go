@@ -11,11 +11,11 @@ import (
 	"context"
 	"errors"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
 	"testing"
 )

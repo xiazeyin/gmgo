@@ -11,7 +11,7 @@ import (
 	"net"
 	"unsafe"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
+	"github.com/xiazeyin/gmgo/net/internal/socket"
 )
 
 var compatFreeBSD32 bool // 386 emulation on amd64

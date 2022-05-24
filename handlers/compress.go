@@ -10,8 +10,8 @@ import (
 	"io"
 	"strings"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/httpsnoop"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/httpsnoop"
 )
 
 const acceptEncoding string = "Accept-Encoding"

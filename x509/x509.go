@@ -50,8 +50,8 @@ import (
 	"time"
 	"unicode"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/gmgo/sm3"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/sm3"
 
 	// Explicitly import these for their crypto.RegisterHash init side-effects.
 	// Keep these as blank imports, even if they're imported above.

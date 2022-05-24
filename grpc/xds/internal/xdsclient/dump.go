@@ -19,7 +19,7 @@
 package xdsclient
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 func mergeMaps(maps []map[string]xdsresource.UpdateWithMD) map[string]xdsresource.UpdateWithMD {

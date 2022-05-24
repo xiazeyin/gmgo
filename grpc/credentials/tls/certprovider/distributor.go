@@ -22,7 +22,7 @@ import (
 	"context"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcsync"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcsync"
 )
 
 // Distributor makes it easy for provider implementations to furnish new key

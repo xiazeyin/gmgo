@@ -21,13 +21,13 @@ import (
 	"net"
 	"strconv"
 
-	v2xdspb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2"
-	v2corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
-	v2endpointpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/endpoint"
-	v3corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	v2typepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal"
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
+	v2xdspb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2"
+	v2corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
+	v2endpointpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/endpoint"
+	v3corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	v2typepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/type"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal"
 )
 
 // EmptyNodeProtoV2 is a v2 Node proto with no fields set.

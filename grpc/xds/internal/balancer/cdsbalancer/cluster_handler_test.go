@@ -21,9 +21,9 @@ import (
 	"errors"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils/fakeclient"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 	"github.com/google/go-cmp/cmp"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/testutils/fakeclient"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 const (

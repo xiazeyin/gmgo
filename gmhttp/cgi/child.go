@@ -18,8 +18,8 @@ import (
 	"strconv"
 	"strings"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 // Request returns the HTTP request as represented in the current

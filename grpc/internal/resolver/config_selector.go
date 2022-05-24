@@ -23,9 +23,9 @@ import (
 	"context"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/serviceconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/internal/serviceconfig"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 // ConfigSelector controls what configuration to use for every RPC.

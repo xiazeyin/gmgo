@@ -25,14 +25,14 @@ import (
 	"net/url"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer/rls/internal/keys"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/pretty"
-	rlspb "gitee.com/zhaochuninhefei/gmgo/grpc/internal/proto/grpc_lookup_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
 	"github.com/golang/protobuf/ptypes"
 	durationpb "github.com/golang/protobuf/ptypes/duration"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/balancer/rls/internal/keys"
+	"github.com/xiazeyin/gmgo/grpc/internal/pretty"
+	rlspb "github.com/xiazeyin/gmgo/grpc/internal/proto/grpc_lookup_v1"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

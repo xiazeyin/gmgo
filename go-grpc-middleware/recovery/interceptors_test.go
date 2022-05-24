@@ -6,16 +6,16 @@ package grpc_recovery_test
 import (
 	"testing"
 
-	grpc_middleware "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware"
-	grpc_recovery "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/recovery"
-	grpc_testing "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing"
-	pb_testproto "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing/testproto"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
+	grpc_middleware "github.com/xiazeyin/gmgo/go-grpc-middleware"
+	grpc_recovery "github.com/xiazeyin/gmgo/go-grpc-middleware/recovery"
+	grpc_testing "github.com/xiazeyin/gmgo/go-grpc-middleware/testing"
+	pb_testproto "github.com/xiazeyin/gmgo/go-grpc-middleware/testing/testproto"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 var (

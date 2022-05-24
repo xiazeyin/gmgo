@@ -23,8 +23,8 @@ package proto
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/encoding"
 	"github.com/golang/protobuf/proto"
+	"github.com/xiazeyin/gmgo/grpc/encoding"
 )
 
 // Name is the name registered for the proto compressor.

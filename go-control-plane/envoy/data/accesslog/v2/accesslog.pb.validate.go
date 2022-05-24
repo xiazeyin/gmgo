@@ -17,7 +17,7 @@ import (
 
 	"google.golang.org/protobuf/types/known/anypb"
 
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
 )
 
 // ensure the imports are used

@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
 	"github.com/stretchr/testify/require"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 var (

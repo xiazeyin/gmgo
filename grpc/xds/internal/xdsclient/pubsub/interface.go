@@ -17,7 +17,7 @@
 
 package pubsub
 
-import "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+import "github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 
 // UpdateHandler receives and processes (by taking appropriate actions) xDS
 // resource updates from an APIClient for a specific version.

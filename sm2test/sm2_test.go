@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/gmgo/sm2soft"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/sm2soft"
 )
 
 func TestSm2Sign(t *testing.T) {

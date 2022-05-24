@@ -8,12 +8,12 @@ package envoy_config_filter_http_health_check_v2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	route "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/route"
-	_type "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
+	route "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/route"
+	_type "github.com/xiazeyin/gmgo/go-control-plane/envoy/type"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

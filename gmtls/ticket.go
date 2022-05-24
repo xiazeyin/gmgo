@@ -21,8 +21,8 @@ import (
 	"errors"
 	"io"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm3"
-	"gitee.com/zhaochuninhefei/gmgo/sm4"
+	"github.com/xiazeyin/gmgo/sm3"
+	"github.com/xiazeyin/gmgo/sm4"
 	"golang.org/x/crypto/cryptobyte"
 )
 

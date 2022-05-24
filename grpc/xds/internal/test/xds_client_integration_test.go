@@ -27,17 +27,17 @@ import (
 	"net"
 	"testing"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/insecure"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/stubserver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils/e2e"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/credentials/insecure"
+	"github.com/xiazeyin/gmgo/grpc/internal/stubserver"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/testutils/e2e"
 
-	v3routepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/route/v3"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/test/grpc_testing"
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
+	v3routepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/route/v3"
+	testpb "github.com/xiazeyin/gmgo/grpc/test/grpc_testing"
 )
 
 // clientSetup performs a bunch of steps common to all xDS client tests here:

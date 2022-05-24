@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 func TestGo17Context(t *testing.T) {

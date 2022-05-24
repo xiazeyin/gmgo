@@ -29,16 +29,16 @@ import (
 	"syscall"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/grpclb"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/google"
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/googledirectpath"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	_ "github.com/xiazeyin/gmgo/grpc/balancer/grpclb"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/credentials/alts"
+	"github.com/xiazeyin/gmgo/grpc/credentials/google"
+	_ "github.com/xiazeyin/gmgo/grpc/xds/googledirectpath"
 	"golang.org/x/sys/unix"
 
-	testgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
+	testgrpc "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
+	testpb "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
 )
 
 var (

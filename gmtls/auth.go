@@ -29,8 +29,8 @@ import (
 	"hash"
 	"io"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 // 使用pubkey，根据sigType选择对应的签名算法对sig进行验签。

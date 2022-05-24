@@ -8,8 +8,8 @@ package envoy_config_filter_http_rbac_v2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v2 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/rbac/v2"
 	proto "github.com/golang/protobuf/proto"
+	v2 "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/rbac/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

@@ -23,15 +23,15 @@ import (
 	"fmt"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer/rls/internal/adaptive"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal"
-	internalgrpclog "gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/pretty"
-	rlsgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/internal/proto/grpc_lookup_v1"
-	rlspb "gitee.com/zhaochuninhefei/gmgo/grpc/internal/proto/grpc_lookup_v1"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/balancer/rls/internal/adaptive"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
+	"github.com/xiazeyin/gmgo/grpc/internal"
+	internalgrpclog "github.com/xiazeyin/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/pretty"
+	rlsgrpc "github.com/xiazeyin/gmgo/grpc/internal/proto/grpc_lookup_v1"
+	rlspb "github.com/xiazeyin/gmgo/grpc/internal/proto/grpc_lookup_v1"
 )
 
 var newAdaptiveThrottler = func() adaptiveThrottler { return adaptive.New() }

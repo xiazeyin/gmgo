@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	xdstestutils "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/bootstrap"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/pubsub"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	xdstestutils "github.com/xiazeyin/gmgo/grpc/xds/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/pubsub"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 

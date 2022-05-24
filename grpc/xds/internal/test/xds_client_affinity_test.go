@@ -26,15 +26,15 @@ import (
 	"fmt"
 	"testing"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/insecure"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/envconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils/e2e"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/credentials/insecure"
+	"github.com/xiazeyin/gmgo/grpc/internal/envconfig"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/testutils/e2e"
 
-	v3clusterpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/cluster/v3"
-	v3corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	v3routepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/route/v3"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/test/grpc_testing"
+	v3clusterpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/cluster/v3"
+	v3corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	v3routepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/route/v3"
+	testpb "github.com/xiazeyin/gmgo/grpc/test/grpc_testing"
 )
 
 const hashHeaderName = "session_id"

@@ -8,7 +8,7 @@
 package execenv
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/internal/syscall/windows"
+	"github.com/xiazeyin/gmgo/internal/syscall/windows"
 	"syscall"
 	"unicode/utf16"
 	"unsafe"

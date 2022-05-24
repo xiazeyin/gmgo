@@ -25,11 +25,11 @@ import (
 	"os"
 	"os/exec"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	channelzgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/channelz/grpc_channelz_v1"
-	channelzpb "gitee.com/zhaochuninhefei/gmgo/grpc/channelz/grpc_channelz_v1"
-	testgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	channelzgrpc "github.com/xiazeyin/gmgo/grpc/channelz/grpc_channelz_v1"
+	channelzpb "github.com/xiazeyin/gmgo/grpc/channelz/grpc_channelz_v1"
+	testgrpc "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
+	testpb "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
 )
 
 func cmd(path string, logger io.Writer, args []string, env []string) *exec.Cmd {

@@ -25,11 +25,11 @@ import (
 	"testing"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	core "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal"
-	altspb "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal/proto/grpc_gcp"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal/testutil"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	core "github.com/xiazeyin/gmgo/grpc/credentials/alts/internal"
+	altspb "github.com/xiazeyin/gmgo/grpc/credentials/alts/internal/proto/grpc_gcp"
+	"github.com/xiazeyin/gmgo/grpc/credentials/alts/internal/testutil"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
 )
 
 type s struct {

@@ -24,8 +24,8 @@
 package dns
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/resolver/dns"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/internal/resolver/dns"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 // NewBuilder creates a dnsBuilder which is used to factory DNS resolvers.

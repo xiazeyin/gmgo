@@ -21,7 +21,7 @@ import (
 	"context"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 // DefaultHTTPRequestTimeout is the default timeout value for the amount of time

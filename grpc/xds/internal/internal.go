@@ -23,7 +23,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 // LocalityID is xds.Locality without XXX fields, so it can be used as map

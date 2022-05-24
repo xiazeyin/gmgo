@@ -23,12 +23,12 @@ import (
 	"fmt"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	controllerversion "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/controller/version"
-	xdsresourceversion "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/controller/version"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/load"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 	"github.com/golang/protobuf/proto"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	controllerversion "github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/controller/version"
+	xdsresourceversion "github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/controller/version"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/load"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // AddWatch adds a watch for an xDS resource given its type and name.

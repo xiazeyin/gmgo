@@ -17,7 +17,7 @@ RPC framework that puts mobile and HTTP/2 first. For more information see the
 With [Go module][] support (Go 1.11+), simply add the following import
 
 ```go
-import "gitee.com/zhaochuninhefei/gmgo/grpc"
+import "github.com/xiazeyin/gmgo/grpc"
 ```
 
 to your code, and then `go [build|run|test]` will automatically fetch the
@@ -49,7 +49,7 @@ produces an error like the following when this happens:
 
 ```console
 $ go get -u google.golang.org/grpc
-package google.golang.org/grpc: unrecognized import path "gitee.com/zhaochuninhefei/gmgo/grpc" (https fetch: Get https://google.golang.org/grpc?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+package google.golang.org/grpc: unrecognized import path "github.com/xiazeyin/gmgo/grpc" (https fetch: Get https://google.golang.org/grpc?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
 ```
 
 To build Go code, there are several options:

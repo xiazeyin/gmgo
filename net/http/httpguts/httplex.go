@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/idna"
+	"github.com/xiazeyin/gmgo/net/idna"
 )
 
 var isTokenTable = [127]bool{

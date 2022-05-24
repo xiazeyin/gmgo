@@ -19,7 +19,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/idna"
+	"github.com/xiazeyin/gmgo/net/idna"
 )
 
 // Config holds configuration for HTTP proxy settings. See

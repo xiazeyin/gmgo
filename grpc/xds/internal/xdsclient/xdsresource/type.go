@@ -20,7 +20,7 @@ package xdsresource
 import (
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 

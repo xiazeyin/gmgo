@@ -36,14 +36,14 @@ import (
 	"testing/iotest"
 	"time"
 
-	. "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptrace"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httputil"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal/testcert"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
-	"gitee.com/zhaochuninhefei/gmgo/internal/nettrace"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	. "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httptrace"
+	"github.com/xiazeyin/gmgo/gmhttp/httputil"
+	"github.com/xiazeyin/gmgo/gmhttp/internal/testcert"
+	tls "github.com/xiazeyin/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/internal/nettrace"
+	"github.com/xiazeyin/gmgo/x509"
 	"golang.org/x/net/http/httpguts"
 )
 
@@ -2466,7 +2466,7 @@ func TestTransportCancelRequestInDial(t *testing.T) {
 	got := logbuf.String()
 	want := `dial: blocking
 canceling
-Get = Get "http://something.no-network.tld/": gitee.com/zhaochuninhefei/gmgo/gmhttp: request canceled while waiting for connection
+Get = Get "http://something.no-network.tld/": github.com/xiazeyin/gmgo/gmhttp: request canceled while waiting for connection
 `
 	if got != want {
 		t.Errorf("Got events:\n%s\nWant:\n%s", got, want)

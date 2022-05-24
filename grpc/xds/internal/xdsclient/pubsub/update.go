@@ -18,9 +18,9 @@
 package pubsub
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/pretty"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 	"github.com/golang/protobuf/proto"
+	"github.com/xiazeyin/gmgo/grpc/internal/pretty"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 type watcherInfoWithUpdate struct {

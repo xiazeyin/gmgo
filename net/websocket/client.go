@@ -10,7 +10,7 @@ import (
 	"net"
 	"net/url"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 // DialError is an error that occurs while dialling a websocket server.

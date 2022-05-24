@@ -21,7 +21,7 @@ package server
 import (
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // rdsHandlerUpdate wraps the full RouteConfigUpdate that are dynamically

@@ -14,7 +14,7 @@ package sm4
 import (
 	"crypto/cipher"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/subtle"
+	"github.com/xiazeyin/gmgo/internal/subtle"
 	"golang.org/x/sys/cpu"
 )
 

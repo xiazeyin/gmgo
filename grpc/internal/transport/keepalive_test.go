@@ -30,9 +30,9 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/syscall"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
-	"gitee.com/zhaochuninhefei/gmgo/net/http2"
+	"github.com/xiazeyin/gmgo/grpc/internal/syscall"
+	"github.com/xiazeyin/gmgo/grpc/keepalive"
+	"github.com/xiazeyin/gmgo/net/http2"
 )
 
 const defaultTestTimeout = 10 * time.Second

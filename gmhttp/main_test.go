@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 var quietLog = log.New(io.Discard, "", 0)
@@ -80,7 +80,7 @@ func goroutineLeaked() bool {
 		// Wait for goroutines to schedule and die off:
 		time.Sleep(100 * time.Millisecond)
 	}
-	fmt.Fprintf(os.Stderr, "Too many goroutines running after gitee.com/zhaochuninhefei/gmgo/gmhttp test(s).\n")
+	fmt.Fprintf(os.Stderr, "Too many goroutines running after github.com/xiazeyin/gmgo/gmhttp test(s).\n")
 	for stack, count := range stackCount {
 		fmt.Fprintf(os.Stderr, "%d instances of:\n%s\n", count, stack)
 	}
@@ -120,7 +120,7 @@ func afterTest(t testing.TB) {
 	badSubstring := map[string]string{
 		").readLoop(":  "a Transport",
 		").writeLoop(": "a Transport",
-		"created by gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest.(*Server).Start": "an httptest.Server",
+		"created by github.com/xiazeyin/gmgo/gmhttp/httptest.(*Server).Start": "an httptest.Server",
 		"timeoutHandler":        "a TimeoutHandler",
 		"net.(*netFD).connect(": "a timing out dial",
 		").noteClientGone(":     "a closenotifier sender",

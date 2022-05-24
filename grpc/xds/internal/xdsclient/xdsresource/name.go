@@ -22,7 +22,7 @@ import (
 	"sort"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/envconfig"
+	"github.com/xiazeyin/gmgo/grpc/internal/envconfig"
 )
 
 // Name contains the parsed component of an xDS resource name.

@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal/ascii"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/gmhttp/internal/ascii"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 // A Client is an HTTP client. Its zero value (DefaultClient) is a
@@ -487,7 +487,7 @@ func alwaysFalse() bool { return false }
 // control how redirects are processed. If returned, the next request
 // is not sent and the most recent response is returned with its body
 // unclosed.
-var ErrUseLastResponse = errors.New("gitee.com/zhaochuninhefei/gmgo/gmhttp: use last response")
+var ErrUseLastResponse = errors.New("github.com/xiazeyin/gmgo/gmhttp: use last response")
 
 // checkRedirect calls either the user's configured CheckRedirect
 // function, or the default.

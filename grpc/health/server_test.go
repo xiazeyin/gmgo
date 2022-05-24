@@ -21,10 +21,10 @@ package health_test
 import (
 	"testing"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/health"
-	healthgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/health/grpc_health_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/health"
+	healthgrpc "github.com/xiazeyin/gmgo/grpc/health/grpc_health_v1"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
 )
 
 type s struct {

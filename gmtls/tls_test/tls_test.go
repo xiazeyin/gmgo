@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmtls"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	"gitee.com/zhaochuninhefei/zcgolog/zclog"
+	"github.com/xiazeyin/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/x509"
+	"github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

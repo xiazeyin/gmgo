@@ -74,8 +74,8 @@ import (
 	"strings"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/internal/profile"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/internal/profile"
 )
 
 func init() {

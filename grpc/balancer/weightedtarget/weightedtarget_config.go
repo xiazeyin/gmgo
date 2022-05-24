@@ -21,8 +21,8 @@ package weightedtarget
 import (
 	"encoding/json"
 
-	internalserviceconfig "gitee.com/zhaochuninhefei/gmgo/grpc/internal/serviceconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
+	internalserviceconfig "github.com/xiazeyin/gmgo/grpc/internal/serviceconfig"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
 )
 
 // Target represents one target with the weight and the child policy.

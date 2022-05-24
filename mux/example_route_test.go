@@ -3,8 +3,8 @@ package mux_test
 import (
 	"fmt"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/mux"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/mux"
 )
 
 // This example demonstrates setting a regular expression matcher for

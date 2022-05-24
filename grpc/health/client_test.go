@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
 )
 
 const defaultTestTimeout = 10 * time.Second

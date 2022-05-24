@@ -21,8 +21,8 @@ package grpctest
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	grpclogi "gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	grpclogi "github.com/xiazeyin/gmgo/grpc/internal/grpclog"
 )
 
 type s struct {

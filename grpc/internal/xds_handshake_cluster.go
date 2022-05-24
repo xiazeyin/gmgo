@@ -17,8 +17,8 @@
 package internal
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/attributes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/attributes"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 // handshakeClusterNameKey is the type used as the key to store cluster name in

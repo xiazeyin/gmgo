@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcutil"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcutil"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
 )
 
 // HeaderMatcher is an interface for header matchers. These are

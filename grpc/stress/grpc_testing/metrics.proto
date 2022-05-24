@@ -20,7 +20,7 @@
 // service.
 syntax = "proto3";
 
-option go_package = "gitee.com/zhaochuninhefei/gmgo/grpc/stress/grpc_testing";
+option go_package = "github.com/xiazeyin/gmgo/grpc/stress/grpc_testing";
 
 package grpc.testing;
 

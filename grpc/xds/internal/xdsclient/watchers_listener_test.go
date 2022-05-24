@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"testing"
 
-	v3listenerpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/listener/v3"
-	v3httppb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	v3listenerpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/listener/v3"
+	v3httppb "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 

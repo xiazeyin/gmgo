@@ -11,7 +11,7 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"gitee.com/zhaochuninhefei/gmgo/internal/goexperiment"
+	"github.com/xiazeyin/gmgo/internal/goexperiment"
 	"log"
 	"os"
 	"reflect"

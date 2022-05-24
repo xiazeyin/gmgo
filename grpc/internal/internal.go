@@ -24,8 +24,8 @@ import (
 	"context"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
 )
 
 var (

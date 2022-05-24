@@ -24,18 +24,18 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils/fakeclient"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 	"github.com/google/go-cmp/cmp"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/testutils/fakeclient"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/controller/version/v2" // V2 client registration.
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/controller/version/v2" // V2 client registration.
 )
 
 const (

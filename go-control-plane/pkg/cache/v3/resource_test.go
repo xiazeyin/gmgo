@@ -18,11 +18,11 @@ import (
 	"reflect"
 	"testing"
 
-	cluster "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/cluster/v3"
-	route "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/route/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/types"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/test/resource/v3"
+	cluster "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/cluster/v3"
+	route "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/route/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/types"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/test/resource/v3"
 )
 
 const (

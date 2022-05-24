@@ -23,16 +23,16 @@ import (
 	"strconv"
 	"testing"
 
-	v3corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	v3endpointpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/endpoint/v3"
-	v3typepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type/v3"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
 	anypb "github.com/golang/protobuf/ptypes/any"
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	v3corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	v3endpointpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/endpoint/v3"
+	v3typepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/type/v3"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
 )
 
 func (s) TestEDSParseRespProto(t *testing.T) {

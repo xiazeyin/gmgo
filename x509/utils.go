@@ -51,8 +51,8 @@ import (
 	"os"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/gmgo/sm3"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/sm3"
 )
 
 // ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓

@@ -17,7 +17,7 @@ import (
 
 	"google.golang.org/protobuf/types/known/anypb"
 
-	v3 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/cluster/v3"
+	v3 "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/cluster/v3"
 )
 
 // ensure the imports are used

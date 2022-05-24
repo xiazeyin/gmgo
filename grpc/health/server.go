@@ -24,10 +24,10 @@ import (
 	"context"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	healthgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/health/grpc_health_v1"
-	healthpb "gitee.com/zhaochuninhefei/gmgo/grpc/health/grpc_health_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	healthgrpc "github.com/xiazeyin/gmgo/grpc/health/grpc_health_v1"
+	healthpb "github.com/xiazeyin/gmgo/grpc/health/grpc_health_v1"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 // Server implements `service Health`.

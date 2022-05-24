@@ -8,7 +8,7 @@
 package unix
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/internal/abi"
+	"github.com/xiazeyin/gmgo/internal/abi"
 	"syscall"
 	"unsafe"
 )

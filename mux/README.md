@@ -225,12 +225,12 @@ package main
 import (
 	"encoding/json"
 	"log"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 	"os"
 	"path/filepath"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/mux"
+	"github.com/xiazeyin/gmgo/mux"
 )
 
 // spaHandler implements the http.Handler interface, so we can use it
@@ -385,10 +385,10 @@ package main
 
 import (
 	"fmt"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/mux"
+	"github.com/xiazeyin/gmgo/mux"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
@@ -446,12 +446,12 @@ import (
     "context"
     "flag"
     "log"
-    http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+    http "github.com/xiazeyin/gmgo/gmhttp"
     "os"
     "os/signal"
     "time"
 
-    "gitee.com/zhaochuninhefei/gmgo/mux"
+    "github.com/xiazeyin/gmgo/mux"
 )
 
 func main() {
@@ -595,8 +595,8 @@ Here is an example of using `CORSMethodMiddleware` along with a custom `OPTIONS`
 package main
 
 import (
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/mux"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/mux"
 )
 
 func main() {
@@ -682,8 +682,8 @@ Our test code:
 package main
 
 import (
-    http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-    "gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+    http "github.com/xiazeyin/gmgo/gmhttp"
+    "github.com/xiazeyin/gmgo/gmhttp/httptest"
     "testing"
 )
 
@@ -781,9 +781,9 @@ Here's a complete, runnable example of a small `mux` based server:
 package main
 
 import (
-    http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+    http "github.com/xiazeyin/gmgo/gmhttp"
     "log"
-    "gitee.com/zhaochuninhefei/gmgo/mux"
+    "github.com/xiazeyin/gmgo/mux"
 )
 
 func YourHandler(w http.ResponseWriter, r *http.Request) {

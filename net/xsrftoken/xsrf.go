@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package xsrftoken provides methods for generating and validating secure XSRF tokens.
-package xsrftoken // import "gitee.com/zhaochuninhefei/gmgo/net/xsrftoken"
+package xsrftoken // import "github.com/xiazeyin/gmgo/net/xsrftoken"
 
 import (
 	"crypto/hmac"

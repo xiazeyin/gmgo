@@ -7,7 +7,7 @@ package idna_test
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/idna"
+	"github.com/xiazeyin/gmgo/net/idna"
 )
 
 func ExampleProfile() {

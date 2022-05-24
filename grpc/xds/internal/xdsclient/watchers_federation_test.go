@@ -21,9 +21,9 @@ import (
 	"context"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/envconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/xiazeyin/gmgo/grpc/internal/envconfig"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 func overrideFedEnvVar(t *testing.T) {

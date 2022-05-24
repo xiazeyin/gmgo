@@ -24,8 +24,8 @@ import (
 	"sort"
 	"strconv"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
 	xxhash "github.com/cespare/xxhash/v2"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 type ring struct {

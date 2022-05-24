@@ -3,8 +3,8 @@ package grpc_zap
 import (
 	"time"
 
-	grpc_logging "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/logging"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
+	grpc_logging "github.com/xiazeyin/gmgo/go-grpc-middleware/logging"
+	"github.com/xiazeyin/gmgo/grpc/codes"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

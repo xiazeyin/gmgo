@@ -24,7 +24,7 @@ import (
 	"bytes"
 	"flag"
 	"fmt"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 	"go/format"
 	"io"
 	"io/ioutil"
@@ -33,7 +33,7 @@ import (
 	"sort"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/idna"
+	"github.com/xiazeyin/gmgo/net/idna"
 )
 
 const (

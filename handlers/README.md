@@ -34,8 +34,8 @@ A simple example using `handlers.LoggingHandler` and `handlers.CompressHandler`:
 
 ```go
 import (
-    http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-    "gitee.com/zhaochuninhefei/gmgo/handlers"
+    http "github.com/xiazeyin/gmgo/gmhttp"
+    "github.com/xiazeyin/gmgo/handlers"
 )
 
 func main() {

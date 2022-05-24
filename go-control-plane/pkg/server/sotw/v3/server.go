@@ -21,14 +21,14 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/status"
 
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	discovery "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/discovery/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/resource/v3"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	discovery "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/discovery/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/resource/v3"
 )
 
 type Server interface {

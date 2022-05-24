@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package ctxhttp provides helper functions for performing context-aware HTTP requests.
-package ctxhttp // import "gitee.com/zhaochuninhefei/gmgo/net/context/ctxhttp"
+package ctxhttp // import "github.com/xiazeyin/gmgo/net/context/ctxhttp"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 // Do sends an HTTP request with the provided http.Client and returns

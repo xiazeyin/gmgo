@@ -19,10 +19,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/types"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/v3"
-	rsrc "gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/resource/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/test/resource/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/types"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/v3"
+	rsrc "github.com/xiazeyin/gmgo/go-control-plane/pkg/resource/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/test/resource/v3"
 )
 
 func TestSnapshotConsistent(t *testing.T) {

@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer/roundrobin"
-	internalserviceconfig "gitee.com/zhaochuninhefei/gmgo/grpc/internal/serviceconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/balancer/ringhash"
+	"github.com/xiazeyin/gmgo/grpc/balancer/roundrobin"
+	internalserviceconfig "github.com/xiazeyin/gmgo/grpc/internal/serviceconfig"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/balancer/ringhash"
 )
 
 // DiscoveryMechanismType is the type of discovery mechanism.

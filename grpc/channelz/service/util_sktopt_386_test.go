@@ -22,7 +22,7 @@
 package service
 
 import (
-	channelzpb "gitee.com/zhaochuninhefei/gmgo/grpc/channelz/grpc_channelz_v1"
+	channelzpb "github.com/xiazeyin/gmgo/grpc/channelz/grpc_channelz_v1"
 	"golang.org/x/sys/unix"
 )
 

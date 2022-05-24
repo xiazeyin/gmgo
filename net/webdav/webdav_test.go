@@ -18,9 +18,9 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 // TODO: add tests to check XML responses with the expected prefix path

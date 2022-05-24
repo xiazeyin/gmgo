@@ -21,9 +21,9 @@ package grpclb
 import (
 	"encoding/json"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer/roundrobin"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/balancer/roundrobin"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
 )
 
 const (

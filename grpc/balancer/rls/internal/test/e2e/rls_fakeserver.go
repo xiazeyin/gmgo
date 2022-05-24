@@ -24,12 +24,12 @@ import (
 	"sync"
 	"testing"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	rlsgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/internal/proto/grpc_lookup_v1"
-	rlspb "gitee.com/zhaochuninhefei/gmgo/grpc/internal/proto/grpc_lookup_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	rlsgrpc "github.com/xiazeyin/gmgo/grpc/internal/proto/grpc_lookup_v1"
+	rlspb "github.com/xiazeyin/gmgo/grpc/internal/proto/grpc_lookup_v1"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 // RouteLookupResponse wraps an RLS response and the associated error to be sent

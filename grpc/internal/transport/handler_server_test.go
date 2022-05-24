@@ -29,15 +29,15 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
 	"github.com/golang/protobuf/proto"
 	dpb "github.com/golang/protobuf/ptypes/duration"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/status"
 	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
 )
 

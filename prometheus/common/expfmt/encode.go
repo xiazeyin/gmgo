@@ -17,10 +17,10 @@ import (
 	"fmt"
 	"io"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/prometheus/common/internal/bitbucket.org/ww/goautoneg"
 	"github.com/golang/protobuf/proto" //nolint:staticcheck // Ignore SA1019. Need to keep deprecated package for compatibility.
 	"github.com/matttproud/golang_protobuf_extensions/pbutil"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/prometheus/common/internal/bitbucket.org/ww/goautoneg"
 
 	dto "github.com/prometheus/client_model/go"
 )

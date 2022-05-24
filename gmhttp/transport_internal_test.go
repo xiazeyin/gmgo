@@ -14,8 +14,8 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal/testcert"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/gmhttp/internal/testcert"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 // Issue 15446: incorrect wrapping of errors when server closes an idle connection.

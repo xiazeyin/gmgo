@@ -15,8 +15,8 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socks"
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/sockstest"
+	"github.com/xiazeyin/gmgo/net/internal/socks"
+	"github.com/xiazeyin/gmgo/net/internal/sockstest"
 )
 
 type proxyFromEnvTest struct {

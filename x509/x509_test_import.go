@@ -14,7 +14,7 @@ import (
 	"crypto/rand"
 	"crypto/x509/pkix"
 	"encoding/pem"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 	"math/big"
 	"strings"
 	"time"

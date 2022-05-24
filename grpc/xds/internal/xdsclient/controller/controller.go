@@ -30,15 +30,15 @@ import (
 	"sync"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/backoff"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/buffer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/bootstrap"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/controller/version"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/pubsub"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/internal/backoff"
+	"github.com/xiazeyin/gmgo/grpc/internal/buffer"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/keepalive"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/bootstrap"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/controller/version"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/pubsub"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // Controller manages the connection and stream to the control plane.

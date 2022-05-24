@@ -25,11 +25,11 @@ import (
 	"net"
 	"net/url"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	credinternal "gitee.com/zhaochuninhefei/gmgo/grpc/internal/credentials"
+	credinternal "github.com/xiazeyin/gmgo/grpc/internal/credentials"
 )
 
 // TLSInfo contains the auth information for a TLS authenticated connection.

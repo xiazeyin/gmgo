@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/server/stream/v3"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/server/stream/v3"
 )
 
 // NodeHash computes string identifiers for Envoy nodes.

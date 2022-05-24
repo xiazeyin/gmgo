@@ -25,13 +25,13 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer/roundrobin"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/balancer/stub"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver/manual"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/balancer/roundrobin"
+	"github.com/xiazeyin/gmgo/grpc/internal"
+	"github.com/xiazeyin/gmgo/grpc/internal/balancer/stub"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/resolver/manual"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
 )
 
 var _ balancer.Builder = &magicalLB{}

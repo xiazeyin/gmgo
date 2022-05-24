@@ -25,8 +25,8 @@ import (
 	"os"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	ppb "gitee.com/zhaochuninhefei/gmgo/grpc/profiling/proto"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	ppb "github.com/xiazeyin/gmgo/grpc/profiling/proto"
 )
 
 func setEnabled(ctx context.Context, c ppb.ProfilingClient, enabled bool) error {

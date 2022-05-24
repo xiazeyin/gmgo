@@ -23,11 +23,11 @@ import (
 	"net"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal"
-	icredentials "gitee.com/zhaochuninhefei/gmgo/grpc/internal/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/internal"
+	icredentials "github.com/xiazeyin/gmgo/grpc/internal/credentials"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 type s struct {

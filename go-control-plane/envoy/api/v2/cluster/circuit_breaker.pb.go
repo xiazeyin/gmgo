@@ -8,11 +8,11 @@ package envoy_api_v2_cluster
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
-	_type "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
+	_type "github.com/xiazeyin/gmgo/go-control-plane/envoy/type"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

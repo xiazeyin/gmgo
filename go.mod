@@ -1,9 +1,8 @@
-module gitee.com/zhaochuninhefei/gmgo
+module github.com/xiazeyin/gmgo
 
-go 1.17
+go 1.16
 
 require (
-	gitee.com/zhaochuninhefei/zcgolog v0.0.14
 	github.com/census-instrumentation/opencensus-proto v0.2.1
 	github.com/cespare/xxhash/v2 v2.1.2
 	github.com/cncf/udpa/go v0.0.0-20210930031921-04548b0d99d4
@@ -34,15 +33,6 @@ require (
 )
 
 require (
-	cloud.google.com/go v0.65.0 // indirect
-	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/prometheus/procfs v0.7.3 // indirect
-	go.uber.org/atomic v1.7.0 // indirect
-	go.uber.org/multierr v1.6.0 // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
-	google.golang.org/appengine v1.6.6 // indirect
+	github.com/xiazeyin/zcgolog v0.0.0-20220524064633-5ef357e6e1b9
 	google.golang.org/grpc v1.44.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )

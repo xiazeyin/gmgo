@@ -8,11 +8,11 @@ package envoy_extensions_filters_http_jwt_authn_v3
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v3 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	v31 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/route/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"
+	v3 "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	v31 "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/route/v3"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"

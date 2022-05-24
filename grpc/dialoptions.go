@@ -24,16 +24,16 @@ import (
 	"net"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/backoff"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/insecure"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal"
-	internalbackoff "gitee.com/zhaochuninhefei/gmgo/grpc/internal/backoff"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/transport"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/stats"
+	"github.com/xiazeyin/gmgo/grpc/backoff"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/credentials/insecure"
+	"github.com/xiazeyin/gmgo/grpc/internal"
+	internalbackoff "github.com/xiazeyin/gmgo/grpc/internal/backoff"
+	"github.com/xiazeyin/gmgo/grpc/internal/transport"
+	"github.com/xiazeyin/gmgo/grpc/keepalive"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/stats"
 )
 
 // dialOptions configure a Dial call. dialOptions are set by the DialOption

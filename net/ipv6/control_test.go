@@ -7,7 +7,7 @@ package ipv6_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv6"
+	"github.com/xiazeyin/gmgo/net/ipv6"
 )
 
 func TestControlMessageParseWithFuzz(t *testing.T) {

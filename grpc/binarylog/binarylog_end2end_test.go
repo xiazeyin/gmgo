@@ -28,18 +28,18 @@ import (
 	"testing"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/binarylog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	iblog "gitee.com/zhaochuninhefei/gmgo/grpc/internal/binarylog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
 	"github.com/golang/protobuf/proto"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/binarylog"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	iblog "github.com/xiazeyin/gmgo/grpc/internal/binarylog"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/status"
 
-	pb "gitee.com/zhaochuninhefei/gmgo/grpc/binarylog/grpc_binarylog_v1"
-	testgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
+	pb "github.com/xiazeyin/gmgo/grpc/binarylog/grpc_binarylog_v1"
+	testgrpc "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
+	testpb "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
 )
 
 var grpclogLogger = grpclog.Component("binarylog")

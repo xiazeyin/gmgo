@@ -16,7 +16,7 @@ import (
 	"bytes"
 	"encoding/xml"
 	"fmt"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 	"go/format"
 	"io"
 	"io/ioutil"

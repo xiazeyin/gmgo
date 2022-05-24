@@ -60,7 +60,7 @@ The /debug/events HTTP endpoint organizes the event logs by family and
 by time since the last error.  The expanded view displays recent log
 entries and the log's call stack.
 */
-package trace // import "gitee.com/zhaochuninhefei/gmgo/net/trace"
+package trace // import "github.com/xiazeyin/gmgo/net/trace"
 
 import (
 	"bytes"
@@ -78,8 +78,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/timeseries"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/net/internal/timeseries"
 )
 
 // DebugUseAfterFinish controls whether to debug uses of Trace values after finishing.
@@ -121,7 +121,7 @@ func init() {
 	_, pat := http.DefaultServeMux.Handler(&http.Request{URL: &url.URL{Path: debugRequestsPath}})
 	if pat == debugRequestsPath {
 		panic("/debug/requests is already registered. You may have two independent copies of " +
-			"gitee.com/zhaochuninhefei/gmgo/net/trace in your binary, trying to maintain separate state. This may " +
+			"github.com/xiazeyin/gmgo/net/trace in your binary, trying to maintain separate state. This may " +
 			"involve a vendored copy of golang.org/x/net/trace.")
 	}
 
@@ -311,7 +311,7 @@ func lookupBucket(fam string, b int) *traceBucket {
 
 type contextKeyT string
 
-var contextKey = contextKeyT("gitee.com/zhaochuninhefei/gmgo/net/trace.Trace")
+var contextKey = contextKeyT("github.com/xiazeyin/gmgo/net/trace.Trace")
 
 // Trace represents an active request.
 type Trace interface {

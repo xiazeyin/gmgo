@@ -15,7 +15,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/syscall/windows/registry"
+	"github.com/xiazeyin/gmgo/internal/syscall/windows/registry"
 )
 
 func randKeyName(prefix string) string {

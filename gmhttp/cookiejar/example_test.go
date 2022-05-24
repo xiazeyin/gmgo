@@ -9,9 +9,9 @@ import (
 	"log"
 	"net/url"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/cookiejar"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/gmhttp/cookiejar"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
 )
 
 func ExampleNew() {

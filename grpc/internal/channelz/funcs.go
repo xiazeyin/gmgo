@@ -30,7 +30,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
 )
 
 const (

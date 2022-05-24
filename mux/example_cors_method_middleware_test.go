@@ -3,9 +3,9 @@ package mux_test
 import (
 	"fmt"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
-	"gitee.com/zhaochuninhefei/gmgo/mux"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/mux"
 )
 
 func ExampleCORSMethodMiddleware() {

@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"testing"
 
-	. "gitee.com/zhaochuninhefei/gmgo/internal/cpu"
+	. "github.com/xiazeyin/gmgo/internal/cpu"
 )
 
 func TestX86ifAVX2hasAVX(t *testing.T) {

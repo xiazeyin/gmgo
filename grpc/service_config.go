@@ -27,10 +27,10 @@ import (
 	"strings"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal"
-	internalserviceconfig "gitee.com/zhaochuninhefei/gmgo/grpc/internal/serviceconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/internal"
+	internalserviceconfig "github.com/xiazeyin/gmgo/grpc/internal/serviceconfig"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
 )
 
 const maxInt = int(^uint(0) >> 1)

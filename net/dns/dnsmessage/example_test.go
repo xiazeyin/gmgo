@@ -9,7 +9,7 @@ import (
 	"net"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/dns/dnsmessage"
+	"github.com/xiazeyin/gmgo/net/dns/dnsmessage"
 )
 
 func mustNewName(name string) dnsmessage.Name {

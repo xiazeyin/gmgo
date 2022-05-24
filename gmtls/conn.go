@@ -29,8 +29,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	"gitee.com/zhaochuninhefei/zcgolog/zclog"
+	"github.com/xiazeyin/gmgo/x509"
+	"github.com/xiazeyin/zcgolog/zclog"
 )
 
 // tls安全连接定义, 实现`net.Conn`接口

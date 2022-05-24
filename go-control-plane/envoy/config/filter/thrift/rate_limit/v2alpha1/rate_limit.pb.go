@@ -8,10 +8,10 @@ package envoy_config_filter_thrift_rate_limit_v2alpha1
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v2 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/ratelimit/v2"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"
+	v2 "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/ratelimit/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

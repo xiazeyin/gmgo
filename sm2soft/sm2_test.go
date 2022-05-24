@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm3"
+	"github.com/xiazeyin/gmgo/sm3"
 )
 
 func TestSm2(t *testing.T) {

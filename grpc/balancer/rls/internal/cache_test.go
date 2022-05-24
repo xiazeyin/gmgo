@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/backoff"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	"github.com/xiazeyin/gmgo/grpc/internal/backoff"
 )
 
 var (

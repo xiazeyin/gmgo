@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/bpf"
+	"github.com/xiazeyin/gmgo/net/bpf"
 )
 
 var _ bpf.Instruction = unknown{}

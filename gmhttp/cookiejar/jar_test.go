@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 // tNow is the synthetic current time used as now during testing.

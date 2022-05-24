@@ -30,7 +30,7 @@ import (
 	"sync"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
+	grpc "github.com/xiazeyin/gmgo/grpc"
 )
 
 // FeatureIndex is an enum for features that usually differ across individual

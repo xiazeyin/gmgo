@@ -10,8 +10,8 @@ import (
 	"os"
 	"runtime"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/icmp"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv6"
+	"github.com/xiazeyin/gmgo/net/icmp"
+	"github.com/xiazeyin/gmgo/net/ipv6"
 )
 
 func ExamplePacketConn_nonPrivilegedPing() {

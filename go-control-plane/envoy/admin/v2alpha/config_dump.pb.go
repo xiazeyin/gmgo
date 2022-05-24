@@ -8,10 +8,10 @@ package envoy_admin_v2alpha
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v2 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/bootstrap/v2"
 	proto "github.com/golang/protobuf/proto"
 	any "github.com/golang/protobuf/ptypes/any"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"
+	v2 "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/bootstrap/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

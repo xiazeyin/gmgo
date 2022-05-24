@@ -11,9 +11,9 @@ import (
 	"net/url"
 	"strings"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httputil"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httputil"
 )
 
 func ExampleDumpRequest() {

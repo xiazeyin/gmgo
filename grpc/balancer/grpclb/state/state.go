@@ -21,7 +21,7 @@
 package state
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 // keyType is the key to use for storing State in Attributes.

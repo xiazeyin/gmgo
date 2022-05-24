@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/trace"
+	"github.com/xiazeyin/gmgo/net/trace"
 )
 
 // EnableTracing controls whether to trace RPCs using the golang.org/x/net/trace package.

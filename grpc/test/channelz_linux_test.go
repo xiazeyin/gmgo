@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/channelz"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/test/grpc_testing"
+	"github.com/xiazeyin/gmgo/grpc/internal/channelz"
+	testpb "github.com/xiazeyin/gmgo/grpc/test/grpc_testing"
 )
 
 func (s) TestCZSocketMetricsSocketOption(t *testing.T) {

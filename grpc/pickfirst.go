@@ -22,8 +22,8 @@ import (
 	"errors"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
 )
 
 // PickFirstBalancerName is the name of the pick_first balancer.

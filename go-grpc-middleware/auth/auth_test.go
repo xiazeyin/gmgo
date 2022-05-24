@@ -6,23 +6,23 @@ package grpc_auth_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
 	"github.com/stretchr/testify/suite"
+	"github.com/xiazeyin/gmgo/grpc"
 
 	"fmt"
 
 	"time"
 
-	grpc_auth "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/auth"
-	grpc_testing "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing"
-	pb_testproto "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing/testproto"
-	"gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/util/metautils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/oauth"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	grpc_auth "github.com/xiazeyin/gmgo/go-grpc-middleware/auth"
+	grpc_testing "github.com/xiazeyin/gmgo/go-grpc-middleware/testing"
+	pb_testproto "github.com/xiazeyin/gmgo/go-grpc-middleware/testing/testproto"
+	"github.com/xiazeyin/gmgo/go-grpc-middleware/util/metautils"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/credentials/oauth"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/net/context"
 	"golang.org/x/oauth2"
 )
 

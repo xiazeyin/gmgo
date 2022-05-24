@@ -26,8 +26,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	pb "gitee.com/zhaochuninhefei/gmgo/grpc/binarylog/grpc_binarylog_v1"
-	iblog "gitee.com/zhaochuninhefei/gmgo/grpc/internal/binarylog"
+	pb "github.com/xiazeyin/gmgo/grpc/binarylog/grpc_binarylog_v1"
+	iblog "github.com/xiazeyin/gmgo/grpc/internal/binarylog"
 )
 
 // SetSink sets the destination for the binary log entries.

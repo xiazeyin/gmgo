@@ -31,13 +31,13 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	core "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal/handshaker"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal/handshaker/service"
-	altspb "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal/proto/grpc_gcp"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/googlecloud"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	core "github.com/xiazeyin/gmgo/grpc/credentials/alts/internal"
+	"github.com/xiazeyin/gmgo/grpc/credentials/alts/internal/handshaker"
+	"github.com/xiazeyin/gmgo/grpc/credentials/alts/internal/handshaker/service"
+	altspb "github.com/xiazeyin/gmgo/grpc/credentials/alts/internal/proto/grpc_gcp"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/googlecloud"
 )
 
 const (

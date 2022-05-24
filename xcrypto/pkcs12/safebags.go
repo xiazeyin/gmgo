@@ -8,7 +8,7 @@ import (
 	"encoding/asn1"
 	"errors"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 var (

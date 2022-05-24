@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"strings"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 // Route stores information to match a request and build URLs.

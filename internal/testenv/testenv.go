@@ -22,7 +22,7 @@ import (
 	"sync"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/cfg"
+	"github.com/xiazeyin/gmgo/internal/cfg"
 )
 
 // Builder reports the name of the builder running this test

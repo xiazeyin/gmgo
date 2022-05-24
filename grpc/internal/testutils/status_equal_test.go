@@ -21,10 +21,10 @@ package testutils
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
 	anypb "github.com/golang/protobuf/ptypes/any"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/status"
 	spb "google.golang.org/genproto/googleapis/rpc/status"
 )
 

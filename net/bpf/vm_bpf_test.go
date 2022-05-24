@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/bpf"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv4"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv6"
-	"gitee.com/zhaochuninhefei/gmgo/net/nettest"
+	"github.com/xiazeyin/gmgo/net/bpf"
+	"github.com/xiazeyin/gmgo/net/ipv4"
+	"github.com/xiazeyin/gmgo/net/ipv6"
+	"github.com/xiazeyin/gmgo/net/nettest"
 )
 
 // A virtualMachine is a BPF virtual machine which can process an

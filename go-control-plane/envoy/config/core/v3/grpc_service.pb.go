@@ -8,13 +8,13 @@ package envoy_config_core_v3
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/annotations"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	any "github.com/golang/protobuf/ptypes/any"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	_struct "github.com/golang/protobuf/ptypes/struct"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
+	_ "github.com/xiazeyin/gmgo/go-control-plane/envoy/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"

@@ -3,14 +3,14 @@ package grpc_logrus_test
 import (
 	"time"
 
-	grpc_middleware "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware"
-	grpc_logrus "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/logging/logrus"
-	grpc_ctxtags "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags"
-	ctx_logrus "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags/logrus"
-	pb_testproto "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing/testproto"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
 	"github.com/sirupsen/logrus"
+	grpc_middleware "github.com/xiazeyin/gmgo/go-grpc-middleware"
+	grpc_logrus "github.com/xiazeyin/gmgo/go-grpc-middleware/logging/logrus"
+	grpc_ctxtags "github.com/xiazeyin/gmgo/go-grpc-middleware/tags"
+	ctx_logrus "github.com/xiazeyin/gmgo/go-grpc-middleware/tags/logrus"
+	pb_testproto "github.com/xiazeyin/gmgo/go-grpc-middleware/testing/testproto"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 var (

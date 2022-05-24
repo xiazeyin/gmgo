@@ -22,14 +22,14 @@ import (
 	"testing"
 	"time"
 
-	corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/balancer/priority"
-	xdstestutils "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils"
 	"github.com/google/go-cmp/cmp"
+	corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/balancer/priority"
+	xdstestutils "github.com/xiazeyin/gmgo/grpc/xds/internal/testutils"
 )
 
 // When a high priority is ready, adding/removing lower locality doesn't cause

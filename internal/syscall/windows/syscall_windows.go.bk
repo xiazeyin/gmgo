@@ -10,7 +10,7 @@ import (
 	"unicode/utf16"
 	"unsafe"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/unsafeheader"
+	"github.com/xiazeyin/gmgo/internal/unsafeheader"
 )
 
 // UTF16PtrToString is like UTF16ToString, but takes *uint16

@@ -20,9 +20,9 @@ package controller
 import (
 	"context"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/controller/version"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/load"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/controller/version"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/load"
 )
 
 // ReportLoad starts an load reporting stream to the given server. If the server

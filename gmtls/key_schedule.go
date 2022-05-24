@@ -26,8 +26,8 @@ import (
 	"io"
 	"math/big"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/zcgolog/zclog"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/zcgolog/zclog"
 	"golang.org/x/crypto/cryptobyte"
 	"golang.org/x/crypto/curve25519"
 	"golang.org/x/crypto/hkdf"

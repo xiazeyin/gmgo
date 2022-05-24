@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/sm2"
 )
 
 func TestDecrypt(t *testing.T) {

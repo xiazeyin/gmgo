@@ -31,30 +31,30 @@ import (
 	"testing"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/insecure"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcrand"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/xds"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils/e2e"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/google/uuid"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/credentials/insecure"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcrand"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/internal/xds"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/testutils/e2e"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	v3listenerpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/listener/v3"
-	cpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/filters/common/fault/v3"
-	fpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/filters/http/fault/v3"
-	v3httppb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
-	tpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type/v3"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/test/grpc_testing"
+	v3listenerpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/listener/v3"
+	cpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/filters/common/fault/v3"
+	fpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/filters/http/fault/v3"
+	v3httppb "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
+	tpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/type/v3"
+	testpb "github.com/xiazeyin/gmgo/grpc/test/grpc_testing"
 
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/balancer"                        // Register the balancers.
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/resolver"                        // Register the xds_resolver.
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/controller/version/v3" // Register the v3 xDS API client.
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/balancer"                        // Register the balancers.
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/resolver"                        // Register the xds_resolver.
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/controller/version/v3" // Register the v3 xDS API client.
 )
 
 const defaultTestTimeout = 10 * time.Second

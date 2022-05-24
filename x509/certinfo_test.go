@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 func TestCertinfo(t *testing.T) {

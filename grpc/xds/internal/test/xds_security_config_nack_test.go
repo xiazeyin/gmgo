@@ -26,15 +26,15 @@ import (
 	"fmt"
 	"testing"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/insecure"
-	xdscreds "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/xds"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils/e2e"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/credentials/insecure"
+	xdscreds "github.com/xiazeyin/gmgo/grpc/credentials/xds"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/testutils/e2e"
 
-	v3corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	v3tlspb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/test/grpc_testing"
+	v3corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	v3tlspb "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
+	testpb "github.com/xiazeyin/gmgo/grpc/test/grpc_testing"
 )
 
 func (s) TestUnmarshalListener_WithUpdateValidatorFunc(t *testing.T) {

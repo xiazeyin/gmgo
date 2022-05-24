@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal/ascii"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/gmhttp/internal/ascii"
 
 	"golang.org/x/net/http/httpguts"
 )

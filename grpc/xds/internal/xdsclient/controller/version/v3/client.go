@@ -23,20 +23,20 @@ import (
 	"context"
 	"fmt"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/pretty"
-	controllerversion "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/controller/version"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
-	xdsresourceversion "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
 	"github.com/golang/protobuf/proto"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/pretty"
+	controllerversion "github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/controller/version"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	xdsresourceversion "github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
 	statuspb "google.golang.org/genproto/googleapis/rpc/status"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	v3corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	v3adsgrpc "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/discovery/v3"
-	v3discoverypb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/discovery/v3"
+	v3corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	v3adsgrpc "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/discovery/v3"
+	v3discoverypb "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/discovery/v3"
 )
 
 func init() {

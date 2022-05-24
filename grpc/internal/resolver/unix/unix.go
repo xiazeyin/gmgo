@@ -22,8 +22,8 @@ package unix
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/transport/networktype"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/internal/transport/networktype"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 const unixScheme = "unix"

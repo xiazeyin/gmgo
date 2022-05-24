@@ -8,11 +8,11 @@ package envoy_config_filter_fault_v2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/annotations"
-	_type "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"
+	_ "github.com/xiazeyin/gmgo/go-control-plane/envoy/annotations"
+	_type "github.com/xiazeyin/gmgo/go-control-plane/envoy/type"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

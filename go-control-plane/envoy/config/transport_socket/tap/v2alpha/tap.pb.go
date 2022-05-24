@@ -8,10 +8,10 @@ package envoy_config_transport_socket_tap_v2alpha
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
-	v2alpha "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/common/tap/v2alpha"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
+	v2alpha "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/common/tap/v2alpha"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

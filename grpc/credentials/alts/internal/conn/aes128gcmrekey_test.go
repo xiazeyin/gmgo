@@ -21,7 +21,7 @@ package conn
 import (
 	"testing"
 
-	core "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal"
+	core "github.com/xiazeyin/gmgo/grpc/credentials/alts/internal"
 )
 
 // getGCMCryptoPair outputs a client/server pair on aes128gcmRekey.

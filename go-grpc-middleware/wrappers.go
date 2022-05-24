@@ -4,8 +4,8 @@
 package grpc_middleware
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 // WrappedServerStream is a thin wrapper around grpc.ServerStream that allows modifying context.

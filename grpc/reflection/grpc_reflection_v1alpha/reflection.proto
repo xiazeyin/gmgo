@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 
-option go_package = "gitee.com/zhaochuninhefei/gmgo/grpc/reflection/grpc_reflection_v1alpha";
+option go_package = "github.com/xiazeyin/gmgo/grpc/reflection/grpc_reflection_v1alpha";
 
 package grpc.reflection.v1alpha;
 

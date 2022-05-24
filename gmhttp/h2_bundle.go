@@ -34,7 +34,7 @@ import (
 	"math"
 	mathrand "math/rand"
 	"net"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptrace"
+	"github.com/xiazeyin/gmgo/gmhttp/httptrace"
 	"net/textproto"
 	"net/url"
 	"os"
@@ -46,7 +46,7 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
-tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+tls "github.com/xiazeyin/gmgo/gmtls"
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http2/hpack"
 	"golang.org/x/net/idna"
@@ -7566,7 +7566,7 @@ func (cc *http2ClientConn) closeForLostPing() error {
 
 // errRequestCanceled is a copy of net/http's errRequestCanceled because it's not
 // exported. At least they'll be DeepEqual for h1-vs-h2 comparisons tests.
-var http2errRequestCanceled = errors.New("gitee.com/zhaochuninhefei/gmgo/gmhttp: request canceled")
+var http2errRequestCanceled = errors.New("github.com/xiazeyin/gmgo/gmhttp: request canceled")
 
 func http2commaSeparatedTrailers(req *Request) (string, error) {
 	keys := make([]string, 0, len(req.Trailer))
@@ -8891,7 +8891,7 @@ func (b http2transportResponseBody) Read(p []byte) (n int, err error) {
 		if int64(n) > cs.bytesRemain {
 			n = int(cs.bytesRemain)
 			if err == nil {
-				err = errors.New("gitee.com/zhaochuninhefei/gmgo/gmhttp: server replied with more than declared Content-Length; truncated")
+				err = errors.New("github.com/xiazeyin/gmgo/gmhttp: server replied with more than declared Content-Length; truncated")
 				cs.abortStream(err)
 			}
 			cs.readErr = err

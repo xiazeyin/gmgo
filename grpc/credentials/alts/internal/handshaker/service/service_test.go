@@ -21,7 +21,7 @@ package service
 import (
 	"testing"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
+	grpc "github.com/xiazeyin/gmgo/grpc"
 )
 
 const (

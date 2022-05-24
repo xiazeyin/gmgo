@@ -23,8 +23,8 @@ import (
 	"net"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/internal"
 )
 
 const cfeClusterNamePrefix = "google_cfe_"

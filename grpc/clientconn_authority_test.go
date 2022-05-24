@@ -23,8 +23,8 @@ import (
 	"net"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/testdata"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/testdata"
 )
 
 func (s) TestClientConnAuthority(t *testing.T) {

@@ -6,7 +6,7 @@ package cpu_test
 
 import (
 	"errors"
-	. "gitee.com/zhaochuninhefei/gmgo/internal/cpu"
+	. "github.com/xiazeyin/gmgo/internal/cpu"
 	"os"
 	"regexp"
 	"testing"

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcrand"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcrand"
 )
 
 // weightedItem is a wrapped weighted item that is used to implement weighted random algorithm.

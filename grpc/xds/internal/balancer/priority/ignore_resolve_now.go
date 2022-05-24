@@ -21,8 +21,8 @@ package priority
 import (
 	"sync/atomic"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 type ignoreResolveNowBalancerBuilder struct {

@@ -23,9 +23,9 @@ import (
 	"strings"
 	"testing"
 
-	rlspb "gitee.com/zhaochuninhefei/gmgo/grpc/internal/proto/grpc_lookup_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
 	"github.com/google/go-cmp/cmp"
+	rlspb "github.com/xiazeyin/gmgo/grpc/internal/proto/grpc_lookup_v1"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
 )
 
 var (

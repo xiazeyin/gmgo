@@ -239,6 +239,6 @@
 // IGMPv1 or IGMPv2 and starts to listen to multicast traffic.
 // In the fallback case, ExcludeSourceSpecificGroup and
 // IncludeSourceSpecificGroup may return an error.
-package ipv4 // import "gitee.com/zhaochuninhefei/gmgo/net/ipv4"
+package ipv4 // import "github.com/xiazeyin/gmgo/net/ipv4"
 
 // BUG(mikio): This package is not implemented on JS, NaCl and Plan 9.

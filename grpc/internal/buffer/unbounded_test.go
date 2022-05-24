@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
 )
 
 const (

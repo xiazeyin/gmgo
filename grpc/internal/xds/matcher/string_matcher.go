@@ -26,8 +26,8 @@ import (
 	"regexp"
 	"strings"
 
-	v3matcherpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type/matcher/v3"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcutil"
+	v3matcherpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/type/matcher/v3"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcutil"
 )
 
 // StringMatcher contains match criteria for matching a string, and is an

@@ -25,13 +25,13 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/balancer/stub"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver/manual"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/internal/balancer/stub"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/resolver/manual"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 const happyBalancerName = "happy balancer"

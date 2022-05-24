@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/iana"
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
+	"github.com/xiazeyin/gmgo/net/internal/iana"
+	"github.com/xiazeyin/gmgo/net/internal/socket"
 
 	"golang.org/x/sys/unix"
 )

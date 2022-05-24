@@ -25,16 +25,16 @@ import (
 	"net"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
 	"github.com/golang/protobuf/proto"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/status"
 
-	discoverypb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2"
-	adsgrpc "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/discovery/v2"
-	lrsgrpc "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/load_stats/v2"
-	lrspb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/load_stats/v2"
+	discoverypb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2"
+	adsgrpc "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/discovery/v2"
+	lrsgrpc "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/load_stats/v2"
+	lrspb "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/load_stats/v2"
 )
 
 const (

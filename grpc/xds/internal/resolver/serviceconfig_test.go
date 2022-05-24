@@ -24,12 +24,12 @@ import (
 	"regexp"
 	"testing"
 
-	iresolver "gitee.com/zhaochuninhefei/gmgo/grpc/internal/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/balancer/cdsbalancer" // To parse LB config
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 	xxhash "github.com/cespare/xxhash/v2"
 	"github.com/google/go-cmp/cmp"
+	iresolver "github.com/xiazeyin/gmgo/grpc/internal/resolver"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/balancer/cdsbalancer" // To parse LB config
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 func (s) TestPruneActiveClusters(t *testing.T) {

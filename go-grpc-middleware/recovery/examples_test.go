@@ -4,9 +4,9 @@
 package grpc_recovery_test
 
 import (
-	grpc_middleware "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware"
-	grpc_recovery "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/recovery"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
+	grpc_middleware "github.com/xiazeyin/gmgo/go-grpc-middleware"
+	grpc_recovery "github.com/xiazeyin/gmgo/go-grpc-middleware/recovery"
+	"github.com/xiazeyin/gmgo/grpc"
 )
 
 var (

@@ -15,7 +15,7 @@ import (
 	"runtime"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm3"
+	"github.com/xiazeyin/gmgo/sm3"
 )
 
 // 将`sha256.Sum224`改为`sm3.Sm3SumArr`
@@ -111,7 +111,7 @@ func (s *CertPool) copy() *CertPool {
 func SystemCertPool() (*CertPool, error) {
 	if runtime.GOOS == "windows" {
 		// Issue 16736, 18609:
-		return nil, errors.New("gitee.com/zhaochuninhefei/gmgo/x509: system root pool is not available on Windows")
+		return nil, errors.New("github.com/xiazeyin/gmgo/x509: system root pool is not available on Windows")
 	}
 
 	if sysRoots := systemRootsPool(); sysRoots != nil {

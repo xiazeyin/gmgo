@@ -1,8 +1,8 @@
 package grpc_ctxtags_test
 
 import (
-	grpc_ctxtags "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
+	grpc_ctxtags "github.com/xiazeyin/gmgo/go-grpc-middleware/tags"
+	"github.com/xiazeyin/gmgo/grpc"
 )
 
 // Simple example of server initialization code, with data automatically populated from `log_fields` Golang tags.

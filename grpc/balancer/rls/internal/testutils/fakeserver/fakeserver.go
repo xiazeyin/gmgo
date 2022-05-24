@@ -27,10 +27,10 @@ import (
 	"net"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	rlsgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/internal/proto/grpc_lookup_v1"
-	rlspb "gitee.com/zhaochuninhefei/gmgo/grpc/internal/proto/grpc_lookup_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	rlsgrpc "github.com/xiazeyin/gmgo/grpc/internal/proto/grpc_lookup_v1"
+	rlspb "github.com/xiazeyin/gmgo/grpc/internal/proto/grpc_lookup_v1"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
 )
 
 const (

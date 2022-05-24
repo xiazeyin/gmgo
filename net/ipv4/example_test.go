@@ -12,8 +12,8 @@ import (
 	"runtime"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/icmp"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv4"
+	"github.com/xiazeyin/gmgo/net/icmp"
+	"github.com/xiazeyin/gmgo/net/ipv4"
 )
 
 func ExampleConn_markingTCP() {

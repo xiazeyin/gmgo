@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/icmp"
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/iana"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv4"
-	"gitee.com/zhaochuninhefei/gmgo/net/nettest"
+	"github.com/xiazeyin/gmgo/net/icmp"
+	"github.com/xiazeyin/gmgo/net/internal/iana"
+	"github.com/xiazeyin/gmgo/net/ipv4"
+	"github.com/xiazeyin/gmgo/net/nettest"
 )
 
 func TestPacketConnReadWriteUnicastUDP(t *testing.T) {

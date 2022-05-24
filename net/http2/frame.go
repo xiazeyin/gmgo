@@ -14,8 +14,8 @@ import (
 	"strings"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/http/httpguts"
-	"gitee.com/zhaochuninhefei/gmgo/net/http2/hpack"
+	"github.com/xiazeyin/gmgo/net/http/httpguts"
+	"github.com/xiazeyin/gmgo/net/http2/hpack"
 )
 
 const frameHeaderLen = 9

@@ -20,7 +20,7 @@
 // which encapsulate all the state needed by a client to authenticate with a
 // server and make various assertions, e.g., about the client's identity, role,
 // or whether it is authorized to make a particular call.
-package credentials // import "gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
+package credentials // import "github.com/xiazeyin/gmgo/grpc/credentials"
 
 import (
 	"context"
@@ -28,9 +28,9 @@ import (
 	"fmt"
 	"net"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/attributes"
-	icredentials "gitee.com/zhaochuninhefei/gmgo/grpc/internal/credentials"
 	"github.com/golang/protobuf/proto"
+	"github.com/xiazeyin/gmgo/grpc/attributes"
+	icredentials "github.com/xiazeyin/gmgo/grpc/internal/credentials"
 )
 
 // PerRPCCredentials defines the common interface for the credentials which need to

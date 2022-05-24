@@ -22,9 +22,9 @@ import (
 	"container/list"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/backoff"
-	internalgrpclog "gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcsync"
+	"github.com/xiazeyin/gmgo/grpc/internal/backoff"
+	internalgrpclog "github.com/xiazeyin/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcsync"
 )
 
 // TODO(easwars): Remove this once all RLS code is merged.

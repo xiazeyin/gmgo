@@ -20,8 +20,8 @@ import (
 	"errors"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 var errNotReceivedUpdate = errors.New("tried to construct a cluster update on a cluster that has not received an update")

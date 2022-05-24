@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 // CORSOption represents a functional option for configuring the CORS middleware.
@@ -143,10 +143,10 @@ func (ch *cors) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 // Example:
 //
 //  import (
-//      http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+//      http "github.com/xiazeyin/gmgo/gmhttp"
 //
-//      "gitee.com/zhaochuninhefei/gmgo/handlers"
-//      "gitee.com/zhaochuninhefei/gmgo/mux"
+//      "github.com/xiazeyin/gmgo/handlers"
+//      "github.com/xiazeyin/gmgo/mux"
 //  )
 //
 //  func main() {

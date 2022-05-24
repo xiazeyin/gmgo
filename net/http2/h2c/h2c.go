@@ -22,10 +22,10 @@ import (
 	"os"
 	"strings"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/net/http/httpguts"
-	"gitee.com/zhaochuninhefei/gmgo/net/http2"
-	"gitee.com/zhaochuninhefei/gmgo/net/http2/hpack"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/net/http/httpguts"
+	"github.com/xiazeyin/gmgo/net/http2"
+	"github.com/xiazeyin/gmgo/net/http2/hpack"
 )
 
 var (

@@ -19,7 +19,7 @@
 // package grpclb defines a grpclb balancer.
 //
 // To install grpclb balancer, import this package as:
-//    import _ "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/grpclb"
+//    import _ "github.com/xiazeyin/gmgo/grpc/balancer/grpclb"
 package grpclb
 
 import (
@@ -29,19 +29,19 @@ import (
 	"sync"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	grpclbstate "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/grpclb/state"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/backoff"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/resolver/dns"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	grpclbstate "github.com/xiazeyin/gmgo/grpc/balancer/grpclb/state"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal"
+	"github.com/xiazeyin/gmgo/grpc/internal/backoff"
+	"github.com/xiazeyin/gmgo/grpc/internal/resolver/dns"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 
-	lbpb "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/grpclb/grpc_lb_v1"
 	durationpb "github.com/golang/protobuf/ptypes/duration"
+	lbpb "github.com/xiazeyin/gmgo/grpc/balancer/grpclb/grpc_lb_v1"
 )
 
 const (

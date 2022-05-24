@@ -23,7 +23,7 @@ The service implemented is defined in:
 https://github.com/grpc/grpc/blob/master/src/proto/grpc/reflection/v1alpha/reflection.proto.
 
 To register server reflection on a gRPC server:
-	import "gitee.com/zhaochuninhefei/gmgo/grpc/reflection"
+	import "github.com/xiazeyin/gmgo/grpc/reflection"
 
 	s := grpc.NewServer()
 	pb.RegisterYourOwnServer(s, &server{})
@@ -34,7 +34,7 @@ To register server reflection on a gRPC server:
 	s.Serve(lis)
 
 */
-package reflection // import "gitee.com/zhaochuninhefei/gmgo/grpc/reflection"
+package reflection // import "github.com/xiazeyin/gmgo/grpc/reflection"
 
 import (
 	"bytes"
@@ -46,12 +46,12 @@ import (
 	"sort"
 	"sync"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	rpb "gitee.com/zhaochuninhefei/gmgo/grpc/reflection/grpc_reflection_v1alpha"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
 	"github.com/golang/protobuf/proto"
 	dpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	rpb "github.com/xiazeyin/gmgo/grpc/reflection/grpc_reflection_v1alpha"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 // GRPCServer is the interface provided by a gRPC server. It is implemented by

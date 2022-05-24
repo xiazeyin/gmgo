@@ -22,11 +22,11 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	lbpb "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/grpclb/grpc_lb_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcrand"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	lbpb "github.com/xiazeyin/gmgo/grpc/balancer/grpclb/grpc_lb_v1"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcrand"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 // rpcStats is same as lbpb.ClientStats, except that numCallsDropped is a map

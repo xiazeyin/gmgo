@@ -8,12 +8,12 @@ package envoy_config_filter_network_redis_proxy_v2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/annotations"
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
+	_ "github.com/xiazeyin/gmgo/go-control-plane/envoy/annotations"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

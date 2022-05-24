@@ -22,9 +22,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/types"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/log"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/server/stream/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/types"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/log"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/server/stream/v3"
 )
 
 type watches = map[chan Response]struct{}

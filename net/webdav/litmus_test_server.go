@@ -21,11 +21,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 	"log"
 	"net/url"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/webdav"
+	"github.com/xiazeyin/gmgo/net/webdav"
 )
 
 var port = flag.Int("port", 9999, "server port")

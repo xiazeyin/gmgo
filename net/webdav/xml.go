@@ -14,7 +14,7 @@ import (
 	"io"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
 	// As of https://go-review.googlesource.com/#/c/12772/ which was submitted
 	// in July 2015, this package uses an internal fork of the standard
@@ -33,7 +33,7 @@ import (
 	// In the long term, this package should use the standard library's version
 	// only, and the internal fork deleted, once
 	// https://github.com/golang/go/issues/13400 is resolved.
-	ixml "gitee.com/zhaochuninhefei/gmgo/net/webdav/internal/xml"
+	ixml "github.com/xiazeyin/gmgo/net/webdav/internal/xml"
 )
 
 // http://www.webdav.org/specs/rfc4918.html#ELEMENT_lockinfo

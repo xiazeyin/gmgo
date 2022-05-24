@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/abi"
-	"gitee.com/zhaochuninhefei/gmgo/internal/testenv"
+	"github.com/xiazeyin/gmgo/internal/abi"
+	"github.com/xiazeyin/gmgo/internal/testenv"
 )
 
 func TestFuncPC(t *testing.T) {

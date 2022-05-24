@@ -27,14 +27,14 @@ import (
 	"net"
 	"sync"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	core "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal/authinfo"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal/conn"
-	altsgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal/proto/grpc_gcp"
-	altspb "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal/proto/grpc_gcp"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	core "github.com/xiazeyin/gmgo/grpc/credentials/alts/internal"
+	"github.com/xiazeyin/gmgo/grpc/credentials/alts/internal/authinfo"
+	"github.com/xiazeyin/gmgo/grpc/credentials/alts/internal/conn"
+	altsgrpc "github.com/xiazeyin/gmgo/grpc/credentials/alts/internal/proto/grpc_gcp"
+	altspb "github.com/xiazeyin/gmgo/grpc/credentials/alts/internal/proto/grpc_gcp"
 )
 
 const (

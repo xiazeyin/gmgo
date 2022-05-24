@@ -25,9 +25,9 @@ import (
 	"net"
 	"net/url"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/attributes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
+	"github.com/xiazeyin/gmgo/grpc/attributes"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
 )
 
 var (

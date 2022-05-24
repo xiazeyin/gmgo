@@ -35,7 +35,7 @@ import (
 	"net"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
 )
 
 // info contains the auth information for a local connection.

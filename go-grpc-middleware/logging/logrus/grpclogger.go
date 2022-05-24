@@ -4,8 +4,8 @@
 package grpc_logrus
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
 	"github.com/sirupsen/logrus"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
 )
 
 // ReplaceGrpcLogger sets the given logrus.Logger as a gRPC-level logger.

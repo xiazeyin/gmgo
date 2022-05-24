@@ -23,7 +23,7 @@ package service
 import (
 	"sync"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
+	grpc "github.com/xiazeyin/gmgo/grpc"
 )
 
 var (

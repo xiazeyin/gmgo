@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/sm2"
 )
 
 const ecPrivKeyVersion = 1

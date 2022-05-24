@@ -19,8 +19,8 @@
 package grpc
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 // PreparedMsg is responsible for creating a Marshalled and Compressed object.

@@ -10,7 +10,7 @@
 //
 //     https://godoc.org/github.com/gorilla/websocket
 //     https://godoc.org/nhooyr.io/websocket
-package websocket // import "gitee.com/zhaochuninhefei/gmgo/net/websocket"
+package websocket // import "github.com/xiazeyin/gmgo/net/websocket"
 
 import (
 	"bufio"
@@ -23,9 +23,9 @@ import (
 	"sync"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 const (

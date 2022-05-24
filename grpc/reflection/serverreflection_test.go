@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	rpb "gitee.com/zhaochuninhefei/gmgo/grpc/reflection/grpc_reflection_v1alpha"
-	pb "gitee.com/zhaochuninhefei/gmgo/grpc/reflection/grpc_testing"
-	pbv3 "gitee.com/zhaochuninhefei/gmgo/grpc/reflection/grpc_testingv3"
 	"github.com/golang/protobuf/proto"
 	dpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	rpb "github.com/xiazeyin/gmgo/grpc/reflection/grpc_reflection_v1alpha"
+	pb "github.com/xiazeyin/gmgo/grpc/reflection/grpc_testing"
+	pbv3 "github.com/xiazeyin/gmgo/grpc/reflection/grpc_testingv3"
 )
 
 var (

@@ -25,16 +25,16 @@ import (
 	"fmt"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/envconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/xds/rbac"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/httpfilter"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
+	"github.com/xiazeyin/gmgo/grpc/internal/envconfig"
+	"github.com/xiazeyin/gmgo/grpc/internal/resolver"
+	"github.com/xiazeyin/gmgo/grpc/internal/xds/rbac"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/httpfilter"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	v3rbacpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/rbac/v3"
-	rpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/filters/http/rbac/v3"
+	v3rbacpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/rbac/v3"
+	rpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/filters/http/rbac/v3"
 )
 
 func init() {

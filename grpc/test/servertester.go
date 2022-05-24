@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/http2"
-	"gitee.com/zhaochuninhefei/gmgo/net/http2/hpack"
+	"github.com/xiazeyin/gmgo/net/http2"
+	"github.com/xiazeyin/gmgo/net/http2/hpack"
 )
 
 // This is a subset of http2's serverTester type.

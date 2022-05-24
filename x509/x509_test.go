@@ -31,8 +31,8 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/testenv"
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/internal/testenv"
+	"github.com/xiazeyin/gmgo/sm2"
 )
 
 func TestParsePKCS1PrivateKey(t *testing.T) {

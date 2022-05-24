@@ -8,12 +8,12 @@ package envoy_config_filter_http_ext_authz_v2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/annotations"
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
-	_type "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type"
-	matcher "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type/matcher"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
+	_ "github.com/xiazeyin/gmgo/go-control-plane/envoy/annotations"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
+	_type "github.com/xiazeyin/gmgo/go-control-plane/envoy/type"
+	matcher "github.com/xiazeyin/gmgo/go-control-plane/envoy/type/matcher"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

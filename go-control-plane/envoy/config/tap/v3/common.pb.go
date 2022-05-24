@@ -8,13 +8,13 @@ package envoy_config_tap_v3
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/annotations"
-	v3 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/common/matcher/v3"
-	v31 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	v32 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/route/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
+	_ "github.com/xiazeyin/gmgo/go-control-plane/envoy/annotations"
+	v3 "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/common/matcher/v3"
+	v31 "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	v32 "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/route/v3"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 	"github.com/google/go-cmp/cmp"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal"
 )
 
 var (

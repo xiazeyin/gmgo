@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptrace"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal/ascii"
+	"github.com/xiazeyin/gmgo/gmhttp/httptrace"
+	"github.com/xiazeyin/gmgo/gmhttp/internal/ascii"
 )
 
 // A Header represents the key-value pairs in an HTTP header.

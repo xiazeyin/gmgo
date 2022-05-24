@@ -57,20 +57,20 @@ import (
 	"sync/atomic"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/benchmark"
-	bm "gitee.com/zhaochuninhefei/gmgo/grpc/benchmark"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/benchmark/flags"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/benchmark/latency"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/benchmark/stats"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/channelz"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/test/bufconn"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/benchmark"
+	bm "github.com/xiazeyin/gmgo/grpc/benchmark"
+	"github.com/xiazeyin/gmgo/grpc/benchmark/flags"
+	"github.com/xiazeyin/gmgo/grpc/benchmark/latency"
+	"github.com/xiazeyin/gmgo/grpc/benchmark/stats"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/channelz"
+	"github.com/xiazeyin/gmgo/grpc/keepalive"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/test/bufconn"
 
-	testgrpc "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/interop/grpc_testing"
+	testgrpc "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
+	testpb "github.com/xiazeyin/gmgo/grpc/interop/grpc_testing"
 )
 
 var (

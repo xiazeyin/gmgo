@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	. "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/cookiejar"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	. "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/gmhttp/cookiejar"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 var robotsTxtHandler = HandlerFunc(func(w ResponseWriter, r *Request) {

@@ -21,8 +21,8 @@ package xds
 import (
 	"net"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
 )
 
 type serverOptions struct {

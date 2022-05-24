@@ -17,8 +17,8 @@ package cache
 import (
 	"context"
 
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/types"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/server/stream/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/types"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/server/stream/v3"
 )
 
 // groups together resource-related arguments for the createDeltaResponse function

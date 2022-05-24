@@ -12,7 +12,7 @@ import (
 	"encoding/asn1"
 	"errors"
 
-	"gitee.com/zhaochuninhefei/gmgo/xcrypto/pkcs12/internal/rc2"
+	"github.com/xiazeyin/gmgo/xcrypto/pkcs12/internal/rc2"
 )
 
 var (

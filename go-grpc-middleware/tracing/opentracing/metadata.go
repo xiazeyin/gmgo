@@ -9,7 +9,7 @@ import (
 
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
 )
 
 const (

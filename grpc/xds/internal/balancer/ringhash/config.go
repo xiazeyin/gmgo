@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
 )
 
 // LBConfig is the balancer config for ring_hash balancer.

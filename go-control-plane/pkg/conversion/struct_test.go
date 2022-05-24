@@ -21,9 +21,9 @@ import (
 	pstruct "github.com/golang/protobuf/ptypes/struct"
 	"github.com/google/go-cmp/cmp"
 
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	discovery "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/discovery/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/conversion"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	discovery "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/discovery/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/conversion"
 )
 
 func TestConversion(t *testing.T) {

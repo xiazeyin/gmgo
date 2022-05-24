@@ -25,8 +25,8 @@ package backoff
 import (
 	"time"
 
-	grpcbackoff "gitee.com/zhaochuninhefei/gmgo/grpc/backoff"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcrand"
+	grpcbackoff "github.com/xiazeyin/gmgo/grpc/backoff"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcrand"
 )
 
 // Strategy defines the methodology for backing off after a grpc connection

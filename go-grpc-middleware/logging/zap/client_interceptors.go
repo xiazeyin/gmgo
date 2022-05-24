@@ -7,8 +7,8 @@ import (
 	"path"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/net/context"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

@@ -26,8 +26,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/envconfig"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/envconfig"
 )
 
 var logger = grpclog.Component("internal/xds")

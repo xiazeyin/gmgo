@@ -38,7 +38,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/profiling/buffer"
+	"github.com/xiazeyin/gmgo/grpc/internal/profiling/buffer"
 )
 
 // 0 or 1 representing profiling off and on, respectively. Use IsEnabled and

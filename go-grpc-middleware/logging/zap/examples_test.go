@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	grpc_middleware "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware"
-	grpc_zap "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/logging/zap"
-	grpc_ctxtags "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags"
-	ctx_zap "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags/zap"
-	pb_testproto "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing/testproto"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
+	grpc_middleware "github.com/xiazeyin/gmgo/go-grpc-middleware"
+	grpc_zap "github.com/xiazeyin/gmgo/go-grpc-middleware/logging/zap"
+	grpc_ctxtags "github.com/xiazeyin/gmgo/go-grpc-middleware/tags"
+	ctx_zap "github.com/xiazeyin/gmgo/go-grpc-middleware/tags/zap"
+	pb_testproto "github.com/xiazeyin/gmgo/go-grpc-middleware/testing/testproto"
+	"github.com/xiazeyin/gmgo/grpc"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

@@ -39,8 +39,8 @@ import (
 	"sync"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/prometheus/common/expfmt"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/prometheus/common/expfmt"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

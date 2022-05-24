@@ -34,12 +34,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/tls/certprovider"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/credentials/tls/certprovider"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
 )
 
 const defaultCertRefreshDuration = 1 * time.Hour

@@ -6,14 +6,14 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
 
-	grpc_zap "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/logging/zap"
-	pb_testproto "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing/testproto"
+	grpc_zap "github.com/xiazeyin/gmgo/go-grpc-middleware/logging/zap"
+	pb_testproto "github.com/xiazeyin/gmgo/go-grpc-middleware/testing/testproto"
 	"go.uber.org/zap/zapcore"
 )
 

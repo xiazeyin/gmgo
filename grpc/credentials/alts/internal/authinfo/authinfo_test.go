@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	altspb "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts/internal/proto/grpc_gcp"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
+	altspb "github.com/xiazeyin/gmgo/grpc/credentials/alts/internal/proto/grpc_gcp"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
 )
 
 type s struct {

@@ -21,7 +21,7 @@ import (
 	"regexp"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcutil"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcutil"
 )
 
 type pathMatcher interface {

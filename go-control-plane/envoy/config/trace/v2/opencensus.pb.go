@@ -9,8 +9,8 @@ package envoy_config_trace_v2
 import (
 	v1 "github.com/census-instrumentation/opencensus-proto/gen-go/trace/v1"
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
 	proto "github.com/golang/protobuf/proto"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

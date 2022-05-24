@@ -8,11 +8,11 @@ package envoy_config_rbac_v2
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
-	route "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/route"
-	matcher "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type/matcher"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
+	route "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/route"
+	matcher "github.com/xiazeyin/gmgo/go-control-plane/envoy/type/matcher"
 	v1alpha1 "google.golang.org/genproto/googleapis/api/expr/v1alpha1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

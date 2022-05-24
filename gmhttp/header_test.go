@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/race"
+	"github.com/xiazeyin/gmgo/internal/race"
 )
 
 var headerWriteTests = []struct {

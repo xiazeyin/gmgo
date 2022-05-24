@@ -27,10 +27,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcutil"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
-	"gitee.com/zhaochuninhefei/gmgo/net/http2"
-	"gitee.com/zhaochuninhefei/gmgo/net/http2/hpack"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcutil"
+	"github.com/xiazeyin/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/net/http2"
+	"github.com/xiazeyin/gmgo/net/http2/hpack"
 )
 
 var updateHeaderTblSize = func(e *hpack.Encoder, v uint32) {

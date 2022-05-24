@@ -19,7 +19,7 @@
 package balancerload
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
 )
 
 // Parser converts loads from metadata into a concrete type.

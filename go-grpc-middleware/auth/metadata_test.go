@@ -6,12 +6,12 @@ package grpc_auth
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/util/metautils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiazeyin/gmgo/go-grpc-middleware/util/metautils"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 func TestAuthFromMD(t *testing.T) {

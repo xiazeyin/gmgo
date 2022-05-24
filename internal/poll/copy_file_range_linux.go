@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/syscall/unix"
+	"github.com/xiazeyin/gmgo/internal/syscall/unix"
 )
 
 var copyFileRangeSupported int32 = -1 // accessed atomically

@@ -7,7 +7,7 @@
 // See the Mulan PSL v2 for more details.
 
 /*
-grpc_test 是对`gitee.com/zhaochuninhefei/gmgo/grpc`的测试包
+grpc_test 是对`github.com/xiazeyin/gmgo/grpc`的测试包
 */
 
 package grpc_test
@@ -20,13 +20,13 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmtls"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpc_test/echo"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	"gitee.com/zhaochuninhefei/zcgolog/zclog"
+	"github.com/xiazeyin/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/grpc_test/echo"
+	"github.com/xiazeyin/gmgo/net/context"
+	"github.com/xiazeyin/gmgo/x509"
+	"github.com/xiazeyin/zcgolog/zclog"
 )
 
 const (

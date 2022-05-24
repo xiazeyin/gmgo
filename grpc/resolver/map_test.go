@@ -23,8 +23,8 @@ import (
 	"sort"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/attributes"
 	"github.com/google/go-cmp/cmp"
+	"github.com/xiazeyin/gmgo/grpc/attributes"
 )
 
 // Note: each address is different from addr1 by one value.  addr7 matches

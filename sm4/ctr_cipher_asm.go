@@ -14,8 +14,8 @@ package sm4
 import (
 	"crypto/cipher"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/subtle"
-	"gitee.com/zhaochuninhefei/gmgo/internal/xor"
+	"github.com/xiazeyin/gmgo/internal/subtle"
+	"github.com/xiazeyin/gmgo/internal/xor"
 )
 
 // Assert that sm4CipherAsm implements the ctrAble interface.

@@ -33,7 +33,7 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/encoding"
+	"github.com/xiazeyin/gmgo/grpc/encoding"
 )
 
 // Name is the name registered for the gzip compressor.

@@ -22,13 +22,13 @@ import (
 	"net"
 	"strconv"
 
-	v3corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	v3endpointpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/endpoint/v3"
-	v3typepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type/v3"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/pretty"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal"
 	"github.com/golang/protobuf/proto"
+	v3corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	v3endpointpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/endpoint/v3"
+	v3typepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/type/v3"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/pretty"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal"
 	"google.golang.org/protobuf/types/known/anypb"
 )
 

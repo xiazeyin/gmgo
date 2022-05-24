@@ -22,16 +22,16 @@ import (
 	"fmt"
 	"net"
 
-	v3listenerpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/listener/v3"
-	v3httppb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
-	v3tlspb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/envconfig"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/httpfilter"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
+	v3listenerpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/listener/v3"
+	v3httppb "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
+	v3tlspb "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
+	"github.com/xiazeyin/gmgo/grpc/internal/envconfig"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/resolver"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/httpfilter"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource/version"
 )
 
 const (

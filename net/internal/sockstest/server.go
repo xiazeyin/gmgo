@@ -10,8 +10,8 @@ import (
 	"io"
 	"net"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socks"
-	"gitee.com/zhaochuninhefei/gmgo/net/nettest"
+	"github.com/xiazeyin/gmgo/net/internal/socks"
+	"github.com/xiazeyin/gmgo/net/nettest"
 )
 
 // An AuthRequest represents an authentication request.

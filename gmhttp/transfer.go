@@ -18,9 +18,9 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptrace"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal/ascii"
+	"github.com/xiazeyin/gmgo/gmhttp/httptrace"
+	"github.com/xiazeyin/gmgo/gmhttp/internal"
+	"github.com/xiazeyin/gmgo/gmhttp/internal/ascii"
 
 	"golang.org/x/net/http/httpguts"
 )

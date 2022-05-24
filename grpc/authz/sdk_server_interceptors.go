@@ -25,11 +25,11 @@ import (
 	"time"
 	"unsafe"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/xds/rbac"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/xds/rbac"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 var logger = grpclog.Component("authz")

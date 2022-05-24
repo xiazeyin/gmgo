@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 func TestServer_Push_Success(t *testing.T) {

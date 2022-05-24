@@ -8,10 +8,10 @@ package envoy_service_discovery_v3
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	v3 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
 	proto "github.com/golang/protobuf/proto"
 	any "github.com/golang/protobuf/ptypes/any"
 	duration "github.com/golang/protobuf/ptypes/duration"
+	v3 "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
 	status "google.golang.org/genproto/googleapis/rpc/status"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

@@ -32,10 +32,10 @@ import (
 	"strconv"
 	"testing"
 
-	channelzpb "gitee.com/zhaochuninhefei/gmgo/grpc/channelz/grpc_channelz_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/channelz"
 	"github.com/golang/protobuf/ptypes"
 	durpb "github.com/golang/protobuf/ptypes/duration"
+	channelzpb "github.com/xiazeyin/gmgo/grpc/channelz/grpc_channelz_v1"
+	"github.com/xiazeyin/gmgo/grpc/internal/channelz"
 	"golang.org/x/sys/unix"
 )
 

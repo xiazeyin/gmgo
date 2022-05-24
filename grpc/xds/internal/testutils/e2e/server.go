@@ -26,18 +26,18 @@ import (
 	"reflect"
 	"strconv"
 
-	v3clusterpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/cluster/v3"
-	v3endpointpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/endpoint/v3"
-	v3listenerpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/listener/v3"
-	v3routepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/route/v3"
-	v3discoverygrpc "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/discovery/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/types"
-	v3cache "gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/v3"
-	v3resource "gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/resource/v3"
-	v3server "gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/server/v3"
+	v3clusterpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/cluster/v3"
+	v3endpointpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/endpoint/v3"
+	v3listenerpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/listener/v3"
+	v3routepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/route/v3"
+	v3discoverygrpc "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/discovery/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/types"
+	v3cache "github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/v3"
+	v3resource "github.com/xiazeyin/gmgo/go-control-plane/pkg/resource/v3"
+	v3server "github.com/xiazeyin/gmgo/go-control-plane/pkg/server/v3"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
 )
 
 var logger = grpclog.Component("xds-e2e")

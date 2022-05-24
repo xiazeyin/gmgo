@@ -5,8 +5,8 @@
 package ipv4
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/iana"
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
+	"github.com/xiazeyin/gmgo/net/internal/iana"
+	"github.com/xiazeyin/gmgo/net/internal/socket"
 
 	"golang.org/x/sys/windows"
 )

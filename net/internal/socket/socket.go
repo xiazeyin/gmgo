@@ -4,7 +4,7 @@
 
 // Package socket provides a portable interface for socket system
 // calls.
-package socket // import "gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
+package socket // import "github.com/xiazeyin/gmgo/net/internal/socket"
 
 import (
 	"errors"

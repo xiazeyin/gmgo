@@ -8,10 +8,10 @@ package envoy_config_listener_v3
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	_ "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/annotations"
-	v3 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
 	proto "github.com/golang/protobuf/proto"
 	_struct "github.com/golang/protobuf/ptypes/struct"
+	_ "github.com/xiazeyin/gmgo/go-control-plane/envoy/annotations"
+	v3 "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

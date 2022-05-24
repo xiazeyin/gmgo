@@ -7,9 +7,9 @@ import (
 	"path"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
 	"github.com/sirupsen/logrus"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 // UnaryClientInterceptor returns a new unary client interceptor that optionally logs the execution of external gRPC calls.

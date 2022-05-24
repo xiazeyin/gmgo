@@ -20,10 +20,10 @@ package grpc_service_config_test
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	scpb "gitee.com/zhaochuninhefei/gmgo/grpc/internal/proto/grpc_service_config"
 	"github.com/golang/protobuf/jsonpb"
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	scpb "github.com/xiazeyin/gmgo/grpc/internal/proto/grpc_service_config"
 )
 
 type s struct {

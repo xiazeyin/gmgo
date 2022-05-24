@@ -24,13 +24,13 @@ import (
 	"io"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
-	healthpb "gitee.com/zhaochuninhefei/gmgo/grpc/health/grpc_health_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/backoff"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
+	healthpb "github.com/xiazeyin/gmgo/grpc/health/grpc_health_v1"
+	"github.com/xiazeyin/gmgo/grpc/internal"
+	"github.com/xiazeyin/gmgo/grpc/internal/backoff"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 var (

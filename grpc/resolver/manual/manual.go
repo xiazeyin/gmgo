@@ -21,7 +21,7 @@
 package manual
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 // NewBuilderWithScheme creates a new test resolver builder with the given scheme.

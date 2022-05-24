@@ -26,13 +26,13 @@ import (
 	"net"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/connectivity"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver/manual"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/connectivity"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/resolver/manual"
+	"github.com/xiazeyin/gmgo/grpc/serviceconfig"
 
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/test/grpc_testing"
+	testpb "github.com/xiazeyin/gmgo/grpc/test/grpc_testing"
 )
 
 // StubServer is a server that is easy to customize within individual test

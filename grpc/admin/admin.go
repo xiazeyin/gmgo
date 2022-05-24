@@ -30,9 +30,9 @@
 package admin
 
 import (
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	channelzservice "gitee.com/zhaochuninhefei/gmgo/grpc/channelz/service"
-	internaladmin "gitee.com/zhaochuninhefei/gmgo/grpc/internal/admin"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	channelzservice "github.com/xiazeyin/gmgo/grpc/channelz/service"
+	internaladmin "github.com/xiazeyin/gmgo/grpc/internal/admin"
 )
 
 func init() {

@@ -3,7 +3,7 @@ package httpsnoop
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
 )
 
 func TestUnwrap(t *testing.T) {

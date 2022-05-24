@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/authz"
+	"github.com/xiazeyin/gmgo/grpc/authz"
 )
 
 func createTmpPolicyFile(t *testing.T, dirSuffix string, policy []byte) string {

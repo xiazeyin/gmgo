@@ -24,9 +24,9 @@ import (
 	"strings"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptrace"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal/ascii"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/gmhttp/httptrace"
+	"github.com/xiazeyin/gmgo/gmhttp/internal/ascii"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
 	"golang.org/x/net/idna"
 )
@@ -593,7 +593,7 @@ func (r *Request) write(w io.Writer, usingProxy bool, extraHeaders Header, waitF
 		}
 	}
 	if stringContainsCTLByte(ruri) {
-		return errors.New("gitee.com/zhaochuninhefei/gmgo/gmhttp: can't write control character in Request.URL")
+		return errors.New("github.com/xiazeyin/gmgo/gmhttp: can't write control character in Request.URL")
 	}
 	// TODO: validate r.Method too? At least it's less likely to
 	// come from an attacker (more likely to be a constant in
@@ -861,10 +861,10 @@ func NewRequestWithContext(ctx context.Context, method, url string, body io.Read
 		method = "GET"
 	}
 	if !validMethod(method) {
-		return nil, fmt.Errorf("gitee.com/zhaochuninhefei/gmgo/gmhttp: invalid method %q", method)
+		return nil, fmt.Errorf("github.com/xiazeyin/gmgo/gmhttp: invalid method %q", method)
 	}
 	if ctx == nil {
-		return nil, errors.New("gitee.com/zhaochuninhefei/gmgo/gmhttp: nil Context")
+		return nil, errors.New("github.com/xiazeyin/gmgo/gmhttp: nil Context")
 	}
 	u, err := urlpkg.Parse(url)
 	if err != nil {

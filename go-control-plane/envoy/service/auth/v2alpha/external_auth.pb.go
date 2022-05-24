@@ -8,11 +8,11 @@ package envoy_service_auth_v2alpha
 
 import (
 	context "context"
-	v2 "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/auth/v2"
 	proto "github.com/golang/protobuf/proto"
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	codes "gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	status "gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	v2 "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/auth/v2"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	codes "github.com/xiazeyin/gmgo/grpc/codes"
+	status "github.com/xiazeyin/gmgo/grpc/status"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

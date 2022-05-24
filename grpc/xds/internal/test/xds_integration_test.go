@@ -32,21 +32,21 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
 	"github.com/google/uuid"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/testdata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils/e2e"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/testdata"
+	"github.com/xiazeyin/gmgo/grpc/xds"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/testutils/e2e"
 
-	xdsinternal "gitee.com/zhaochuninhefei/gmgo/grpc/internal/xds"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/test/grpc_testing"
+	xdsinternal "github.com/xiazeyin/gmgo/grpc/internal/xds"
+	testpb "github.com/xiazeyin/gmgo/grpc/test/grpc_testing"
 )
 
 const (

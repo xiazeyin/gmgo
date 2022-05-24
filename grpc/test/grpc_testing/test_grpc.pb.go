@@ -8,9 +8,9 @@ package grpc_testing
 
 import (
 	context "context"
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	codes "gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	status "gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	codes "github.com/xiazeyin/gmgo/grpc/codes"
+	status "github.com/xiazeyin/gmgo/grpc/status"
 )
 
 // This is a compile-time assertion to ensure that this generated file

@@ -8,7 +8,7 @@ import (
 	"net"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
+	"github.com/xiazeyin/gmgo/net/internal/socket"
 )
 
 // BUG(mikio): On Windows, the JoinSourceSpecificGroup,

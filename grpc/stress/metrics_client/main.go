@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"io"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	metricspb "gitee.com/zhaochuninhefei/gmgo/grpc/stress/grpc_testing"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	metricspb "github.com/xiazeyin/gmgo/grpc/stress/grpc_testing"
 )
 
 var (

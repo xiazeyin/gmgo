@@ -28,19 +28,19 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcrand"
-	iresolver "gitee.com/zhaochuninhefei/gmgo/grpc/internal/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/httpfilter"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcrand"
+	iresolver "github.com/xiazeyin/gmgo/grpc/internal/resolver"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/httpfilter"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	cpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/filters/common/fault/v3"
-	fpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/filters/http/fault/v3"
-	tpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type/v3"
+	cpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/filters/common/fault/v3"
+	fpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/filters/http/fault/v3"
+	tpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/type/v3"
 )
 
 const headerAbortHTTPStatus = "x-envoy-fault-abort-request"

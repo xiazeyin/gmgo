@@ -30,20 +30,20 @@ package xds
 import (
 	"fmt"
 
-	v3statusgrpc "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/status/v3"
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	internaladmin "gitee.com/zhaochuninhefei/gmgo/grpc/internal/admin"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/csds"
+	v3statusgrpc "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/status/v3"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	internaladmin "github.com/xiazeyin/gmgo/grpc/internal/admin"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
+	"github.com/xiazeyin/gmgo/grpc/xds/csds"
 
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/credentials/tls/certprovider/pemfile"         // Register the file watcher certificate provider plugin.
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/balancer"                        // Register the balancers.
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/httpfilter/fault"                // Register the fault injection filter.
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/httpfilter/rbac"                 // Register the RBAC filter.
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/httpfilter/router"               // Register the router filter.
-	xdsresolver "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/resolver"              // Register the xds_resolver.
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/controller/version/v2" // Register the v2 xDS API client.
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/controller/version/v3" // Register the v3 xDS API client.
+	_ "github.com/xiazeyin/gmgo/grpc/credentials/tls/certprovider/pemfile"         // Register the file watcher certificate provider plugin.
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/balancer"                        // Register the balancers.
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/httpfilter/fault"                // Register the fault injection filter.
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/httpfilter/rbac"                 // Register the RBAC filter.
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/httpfilter/router"               // Register the router filter.
+	xdsresolver "github.com/xiazeyin/gmgo/grpc/xds/internal/resolver"              // Register the xds_resolver.
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/controller/version/v2" // Register the v2 xDS API client.
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/controller/version/v3" // Register the v3 xDS API client.
 )
 
 func init() {

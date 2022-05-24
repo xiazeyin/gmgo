@@ -24,11 +24,11 @@ import (
 	"fmt"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/oauth"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/credentials/alts"
+	"github.com/xiazeyin/gmgo/grpc/credentials/oauth"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal"
 )
 
 const tokenRequestTimeout = 30 * time.Second

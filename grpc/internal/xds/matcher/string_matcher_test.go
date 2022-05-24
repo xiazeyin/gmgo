@@ -22,8 +22,8 @@ import (
 	"regexp"
 	"testing"
 
-	v3matcherpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type/matcher/v3"
 	"github.com/google/go-cmp/cmp"
+	v3matcherpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/type/matcher/v3"
 )
 
 func TestStringMatcherFromProto(t *testing.T) {

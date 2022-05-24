@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 // This example passes a context with a timeout to tell a blocking function that

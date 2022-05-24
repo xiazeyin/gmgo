@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/transport"
+	"github.com/xiazeyin/gmgo/grpc/internal/transport"
 )
 
 type emptyServiceServer interface{}

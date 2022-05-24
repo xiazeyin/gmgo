@@ -10,7 +10,7 @@ package poll
 import (
 	"syscall"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/syscall/unix"
+	"github.com/xiazeyin/gmgo/internal/syscall/unix"
 )
 
 func fcntl(fd int, cmd int, arg int) (int, error) {

@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 // Test the getNonceAccept function with values in

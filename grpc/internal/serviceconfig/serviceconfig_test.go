@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	externalserviceconfig "gitee.com/zhaochuninhefei/gmgo/grpc/serviceconfig"
 	"github.com/google/go-cmp/cmp"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	externalserviceconfig "github.com/xiazeyin/gmgo/grpc/serviceconfig"
 )
 
 type testBalancerConfigType struct {

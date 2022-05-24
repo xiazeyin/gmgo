@@ -11,7 +11,7 @@ import (
 	"io"
 	"testing"
 
-	. "gitee.com/zhaochuninhefei/gmgo/internal/reflectlite"
+	. "github.com/xiazeyin/gmgo/internal/reflectlite"
 )
 
 func TestImplicitSetConversion(t *testing.T) {

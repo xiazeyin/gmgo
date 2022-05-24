@@ -6,8 +6,8 @@ package metautils
 import (
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 // NiceMD is a convenience wrapper definiting extra functions on the metadata.

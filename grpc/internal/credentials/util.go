@@ -19,7 +19,7 @@
 package credentials
 
 import (
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 const alpnProtoStrH2 = "h2"

@@ -20,10 +20,10 @@
 package balancer
 
 import (
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/weightedtarget"               // Register the weighted_target balancer
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/balancer/cdsbalancer"     // Register the CDS balancer
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/balancer/clusterimpl"     // Register the xds_cluster_impl balancer
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/balancer/clustermanager"  // Register the xds_cluster_manager balancer
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/balancer/clusterresolver" // Register the xds_cluster_resolver balancer
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/balancer/priority"        // Register the priority balancer
+	_ "github.com/xiazeyin/gmgo/grpc/balancer/weightedtarget"               // Register the weighted_target balancer
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/balancer/cdsbalancer"     // Register the CDS balancer
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/balancer/clusterimpl"     // Register the xds_cluster_impl balancer
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/balancer/clustermanager"  // Register the xds_cluster_manager balancer
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/balancer/clusterresolver" // Register the xds_cluster_resolver balancer
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/balancer/priority"        // Register the priority balancer
 )

@@ -10,7 +10,7 @@ import (
 	"net"
 	"testing"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 type newServerFunc func(http.Handler) *Server

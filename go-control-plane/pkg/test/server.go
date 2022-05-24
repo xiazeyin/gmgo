@@ -9,13 +9,13 @@ import (
 	"net/http"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/keepalive"
 
-	server "gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/server/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/test/v3"
+	server "github.com/xiazeyin/gmgo/go-control-plane/pkg/server/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/test/v3"
 
-	gcplogger "gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/log"
+	gcplogger "github.com/xiazeyin/gmgo/go-control-plane/pkg/log"
 )
 
 const (

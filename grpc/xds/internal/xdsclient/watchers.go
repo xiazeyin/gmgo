@@ -18,7 +18,7 @@
 package xdsclient
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // WatchListener uses LDS to discover information about the provided listener.

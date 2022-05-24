@@ -10,7 +10,7 @@ import (
 	"io"
 	"strings"
 
-	a "gitee.com/zhaochuninhefei/gmgo/net/html/atom"
+	a "github.com/xiazeyin/gmgo/net/html/atom"
 )
 
 // A parser implements the HTML5 parsing algorithm:

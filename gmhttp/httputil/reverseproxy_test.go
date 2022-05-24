@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal/ascii"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/internal/ascii"
 )
 
 const fakeHopHeader = "X-Fake-Hop-Header-For-Test"

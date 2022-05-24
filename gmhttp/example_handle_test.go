@@ -9,7 +9,7 @@ import (
 	"log"
 	"sync"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 type countHandler struct {

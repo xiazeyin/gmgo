@@ -1,8 +1,8 @@
 package grpc_zap
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/logging/zap/ctxzap"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
+	"github.com/xiazeyin/gmgo/go-grpc-middleware/logging/zap/ctxzap"
+	"github.com/xiazeyin/gmgo/net/context"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

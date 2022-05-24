@@ -24,7 +24,7 @@ import (
 	"context"
 	"net"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
 )
 
 // Peer contains the information of the peer for an RPC, such as the address

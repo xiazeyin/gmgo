@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm4soft"
+	"github.com/xiazeyin/gmgo/sm4soft"
 )
 
 func TestP7BlockDecrypt(t *testing.T) {

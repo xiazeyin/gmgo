@@ -27,13 +27,13 @@ import (
 	"net"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	credinternal "gitee.com/zhaochuninhefei/gmgo/grpc/internal/credentials"
-	xdsinternal "gitee.com/zhaochuninhefei/gmgo/grpc/internal/credentials/xds"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	credinternal "github.com/xiazeyin/gmgo/grpc/internal/credentials"
+	xdsinternal "github.com/xiazeyin/gmgo/grpc/internal/credentials/xds"
 )
 
 // ClientOptions contains parameters to configure a new client-side xDS

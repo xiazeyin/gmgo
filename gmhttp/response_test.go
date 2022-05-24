@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal"
+	"github.com/xiazeyin/gmgo/gmhttp/internal"
 )
 
 type respTest struct {

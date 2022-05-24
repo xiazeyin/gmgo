@@ -9,7 +9,7 @@ package windows_test
 
 import (
 	"fmt"
-	"gitee.com/zhaochuninhefei/gmgo/internal/syscall/windows"
+	"github.com/xiazeyin/gmgo/internal/syscall/windows"
 	"os"
 	"os/exec"
 	"syscall"

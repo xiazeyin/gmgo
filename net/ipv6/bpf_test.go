@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/bpf"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv6"
-	"gitee.com/zhaochuninhefei/gmgo/net/nettest"
+	"github.com/xiazeyin/gmgo/net/bpf"
+	"github.com/xiazeyin/gmgo/net/ipv6"
+	"github.com/xiazeyin/gmgo/net/nettest"
 )
 
 func TestBPF(t *testing.T) {

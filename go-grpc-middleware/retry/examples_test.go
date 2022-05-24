@@ -8,11 +8,11 @@ import (
 	"io"
 	"time"
 
-	grpc_retry "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/retry"
-	pb_testproto "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing/testproto"
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
+	grpc_retry "github.com/xiazeyin/gmgo/go-grpc-middleware/retry"
+	pb_testproto "github.com/xiazeyin/gmgo/go-grpc-middleware/testing/testproto"
+	"github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 var cc *grpc.ClientConn

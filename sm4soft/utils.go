@@ -19,7 +19,7 @@ import (
 	"errors"
 	"io/ioutil"
 
-	gmx509 "gitee.com/zhaochuninhefei/gmgo/x509"
+	gmx509 "github.com/xiazeyin/gmgo/x509"
 )
 
 // ReadKeyFromPem will return SM4Key from PEM format data.

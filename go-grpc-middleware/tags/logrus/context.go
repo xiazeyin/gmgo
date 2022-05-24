@@ -1,9 +1,9 @@
 package ctx_logrus
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/logging/logrus/ctxlogrus"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
 	"github.com/sirupsen/logrus"
+	"github.com/xiazeyin/gmgo/go-grpc-middleware/logging/logrus/ctxlogrus"
+	"github.com/xiazeyin/gmgo/net/context"
 )
 
 // AddFields adds logrus fields to the logger.

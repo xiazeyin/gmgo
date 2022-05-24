@@ -20,9 +20,9 @@ package e2e
 import (
 	"fmt"
 
-	xdsinternal "gitee.com/zhaochuninhefei/gmgo/grpc/internal/xds"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/testutils/e2e"
 	"github.com/google/uuid"
+	xdsinternal "github.com/xiazeyin/gmgo/grpc/internal/xds"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/testutils/e2e"
 )
 
 type controlPlane struct {

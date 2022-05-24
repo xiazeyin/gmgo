@@ -9,7 +9,7 @@ import (
 	"math"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/itoa"
+	"github.com/xiazeyin/gmgo/internal/itoa"
 )
 
 var (

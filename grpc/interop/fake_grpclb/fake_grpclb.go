@@ -28,14 +28,14 @@ import (
 	"strings"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	lbpb "gitee.com/zhaochuninhefei/gmgo/grpc/balancer/grpclb/grpc_lb_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/alts"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/testdata"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	lbpb "github.com/xiazeyin/gmgo/grpc/balancer/grpclb/grpc_lb_v1"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/credentials/alts"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/testdata"
 )
 
 var (

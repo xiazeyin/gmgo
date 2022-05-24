@@ -11,7 +11,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/internal/ascii"
+	"github.com/xiazeyin/gmgo/gmhttp/internal/ascii"
 )
 
 // These parameter values are specified in section 5.

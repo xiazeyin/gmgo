@@ -20,8 +20,8 @@ import fmt "fmt"
 import math "math"
 
 import (
-	context "gitee.com/zhaochuninhefei/gmgo/net/context"
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	context "github.com/xiazeyin/gmgo/net/context"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

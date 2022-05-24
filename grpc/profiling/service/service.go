@@ -32,10 +32,10 @@ import (
 	"errors"
 	"sync"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/profiling"
-	ppb "gitee.com/zhaochuninhefei/gmgo/grpc/profiling/proto"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/internal/profiling"
+	ppb "github.com/xiazeyin/gmgo/grpc/profiling/proto"
 )
 
 var logger = grpclog.Component("profiling")

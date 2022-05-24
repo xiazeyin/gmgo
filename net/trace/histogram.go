@@ -14,7 +14,7 @@ import (
 	"math"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/timeseries"
+	"github.com/xiazeyin/gmgo/net/internal/timeseries"
 )
 
 const (

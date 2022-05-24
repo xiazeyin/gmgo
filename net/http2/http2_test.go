@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/http2/hpack"
+	"github.com/xiazeyin/gmgo/net/http2/hpack"
 )
 
 var knownFailing = flag.Bool("known_failing", false, "Run known-failing tests.")

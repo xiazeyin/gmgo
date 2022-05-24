@@ -27,21 +27,21 @@ import (
 	"context"
 	"io"
 
-	v3adminpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/admin/v3"
-	v2corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
-	v3corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	v3statusgrpc "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/status/v3"
-	v3statuspb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/status/v3"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 	"github.com/golang/protobuf/proto"
+	v3adminpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/admin/v3"
+	v2corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
+	v3corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	v3statusgrpc "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/status/v3"
+	v3statuspb "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/status/v3"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/controller/version/v2" // Register v2 xds_client.
-	_ "gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/controller/version/v3" // Register v3 xds_client.
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/controller/version/v2" // Register v2 xds_client.
+	_ "github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/controller/version/v3" // Register v3 xds_client.
 )
 
 var (

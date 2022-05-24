@@ -11,7 +11,7 @@ import (
 	"encoding/pem"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 func ExampleCertificate_Verify() {

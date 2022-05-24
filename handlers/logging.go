@@ -12,9 +12,9 @@ import (
 	"time"
 	"unicode/utf8"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/gmgo/httpsnoop"
+	"github.com/xiazeyin/gmgo/httpsnoop"
 )
 
 // Logging

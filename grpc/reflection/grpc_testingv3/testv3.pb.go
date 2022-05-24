@@ -21,7 +21,7 @@ import math "math"
 import (
 	context "context"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
+	grpc "github.com/xiazeyin/gmgo/grpc"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

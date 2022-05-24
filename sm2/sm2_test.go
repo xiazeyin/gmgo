@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm3"
+	"github.com/xiazeyin/gmgo/sm3"
 )
 
 func Test_kdf(t *testing.T) {

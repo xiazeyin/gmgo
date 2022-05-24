@@ -6,11 +6,11 @@ import (
 	"io"
 	"testing"
 
-	grpc_ctxtags "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags"
-	ctx_zap "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags/zap"
-	grpc_testing "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing"
-	pb_testproto "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing/testproto"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
+	grpc_ctxtags "github.com/xiazeyin/gmgo/go-grpc-middleware/tags"
+	ctx_zap "github.com/xiazeyin/gmgo/go-grpc-middleware/tags/zap"
+	grpc_testing "github.com/xiazeyin/gmgo/go-grpc-middleware/testing"
+	pb_testproto "github.com/xiazeyin/gmgo/go-grpc-middleware/testing/testproto"
+	"github.com/xiazeyin/gmgo/net/context"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

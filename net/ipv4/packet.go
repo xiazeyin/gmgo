@@ -7,7 +7,7 @@ package ipv4
 import (
 	"net"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
+	"github.com/xiazeyin/gmgo/net/internal/socket"
 )
 
 // BUG(mikio): On Windows, the ReadFrom and WriteTo methods of RawConn

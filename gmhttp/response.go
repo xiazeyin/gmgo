@@ -17,7 +17,7 @@ import (
 	"strconv"
 	"strings"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 	"golang.org/x/net/http/httpguts"
 )
 

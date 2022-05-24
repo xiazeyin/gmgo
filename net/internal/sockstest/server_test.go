@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socks"
+	"github.com/xiazeyin/gmgo/net/internal/socks"
 )
 
 func TestParseAuthRequest(t *testing.T) {

@@ -26,7 +26,7 @@ import (
 	"net/url"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 	"golang.org/x/oauth2/jwt"

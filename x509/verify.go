@@ -21,7 +21,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 type InvalidReason int
@@ -775,7 +775,7 @@ func (c *Certificate) Verify(opts VerifyOptions) (chains [][]*Certificate, err e
 		// 如果检查参数中包含可选的中间证书池，则先检查这些中间证书是否能够正常读取
 		intermediatesCert, err := opts.Intermediates.cert(i)
 		if err != nil {
-			return nil, fmt.Errorf("gitee.com/zhaochuninhefei/gmgo/x509: error fetching intermediate: %w", err)
+			return nil, fmt.Errorf("github.com/xiazeyin/gmgo/x509: error fetching intermediate: %w", err)
 		}
 		if len(intermediatesCert.Raw) == 0 {
 			return nil, errNotParsed

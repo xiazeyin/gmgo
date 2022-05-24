@@ -26,7 +26,7 @@ import (
 	"sort"
 	"strings"
 
-	ppb "gitee.com/zhaochuninhefei/gmgo/grpc/profiling/proto"
+	ppb "github.com/xiazeyin/gmgo/grpc/profiling/proto"
 )
 
 type jsonNode struct {

@@ -24,7 +24,7 @@ import (
 	"errors"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/sm2"
 )
 
 // pkcs8 reflects an ASN.1, PKCS #8 PrivateKey. See

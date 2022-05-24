@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/testenv"
+	"github.com/xiazeyin/gmgo/internal/testenv"
 )
 
 // Tests that the linker is able to remove references to the Client or Server if unused.

@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 type routeRegexpOptions struct {

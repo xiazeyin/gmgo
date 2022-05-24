@@ -16,7 +16,7 @@
 // UTS #46 is defined in https://www.unicode.org/reports/tr46.
 // See https://unicode.org/cldr/utility/idna.jsp for a visualization of the
 // differences between these two standards.
-package idna // import "gitee.com/zhaochuninhefei/gmgo/net/idna"
+package idna // import "github.com/xiazeyin/gmgo/net/idna"
 
 import (
 	"fmt"

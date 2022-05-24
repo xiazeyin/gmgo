@@ -23,19 +23,19 @@ import (
 	"net"
 	"strconv"
 
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/wellknown"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
 	"github.com/golang/protobuf/proto"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/wellknown"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
 
-	v3clusterpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/cluster/v3"
-	v3corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	v3endpointpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/endpoint/v3"
-	v3listenerpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/listener/v3"
-	v3routepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/route/v3"
-	v3routerpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/filters/http/router/v3"
-	v3httppb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
-	v3tlspb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
+	v3clusterpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/cluster/v3"
+	v3corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	v3endpointpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/endpoint/v3"
+	v3listenerpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/listener/v3"
+	v3routepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/route/v3"
+	v3routerpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/filters/http/router/v3"
+	v3httppb "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
+	v3tlspb "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 )
 
 const (

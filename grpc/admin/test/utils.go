@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	v3statusgrpc "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/status/v3"
-	v3statuspb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/status/v3"
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/admin"
-	channelzpb "gitee.com/zhaochuninhefei/gmgo/grpc/channelz/grpc_channelz_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/xds"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
 	"github.com/google/uuid"
+	v3statusgrpc "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/status/v3"
+	v3statuspb "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/status/v3"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/admin"
+	channelzpb "github.com/xiazeyin/gmgo/grpc/channelz/grpc_channelz_v1"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/internal/xds"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 const (

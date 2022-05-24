@@ -5,9 +5,9 @@ package httpsnoop
 
 import (
 	"bufio"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 	"io"
 	"net"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
 )
 
 // HeaderFunc is part of the http.ResponseWriter interface.

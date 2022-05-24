@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/html/atom"
+	"github.com/xiazeyin/gmgo/net/html/atom"
 )
 
 // A TokenType is the type of a Token.

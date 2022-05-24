@@ -21,17 +21,17 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	cluster "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/cluster/v3"
-	core "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/core/v3"
-	endpoint "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/endpoint/v3"
-	listener "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/listener/v3"
-	route "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/config/route/v3"
-	hcm "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
-	auth "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
-	runtime "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/runtime/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/types"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/resource/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/wellknown"
+	cluster "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/cluster/v3"
+	core "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/core/v3"
+	endpoint "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/endpoint/v3"
+	listener "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/listener/v3"
+	route "github.com/xiazeyin/gmgo/go-control-plane/envoy/config/route/v3"
+	hcm "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
+	auth "github.com/xiazeyin/gmgo/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
+	runtime "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/runtime/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/types"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/resource/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/wellknown"
 )
 
 // GetResponseType returns the enumeration for a valid xDS type URL

@@ -26,7 +26,7 @@ import (
 	"syscall"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/grpclog"
+	"github.com/xiazeyin/gmgo/grpc/grpclog"
 	"golang.org/x/sys/unix"
 )
 

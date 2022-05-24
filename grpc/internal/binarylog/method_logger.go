@@ -24,11 +24,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	pb "gitee.com/zhaochuninhefei/gmgo/grpc/binarylog/grpc_binarylog_v1"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
+	pb "github.com/xiazeyin/gmgo/grpc/binarylog/grpc_binarylog_v1"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/status"
 )
 
 type callIDGenerator struct {

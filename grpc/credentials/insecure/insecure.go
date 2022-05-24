@@ -24,7 +24,7 @@ import (
 	"context"
 	"net"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
 )
 
 // NewCredentials returns a credentials which disables transport security.

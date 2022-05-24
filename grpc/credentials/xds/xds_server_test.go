@@ -28,14 +28,14 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/credentials/tls/certprovider"
-	xdsinternal "gitee.com/zhaochuninhefei/gmgo/grpc/internal/credentials/xds"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/testdata"
+	"github.com/xiazeyin/gmgo/grpc/credentials"
+	"github.com/xiazeyin/gmgo/grpc/credentials/tls/certprovider"
+	xdsinternal "github.com/xiazeyin/gmgo/grpc/internal/credentials/xds"
+	"github.com/xiazeyin/gmgo/grpc/testdata"
 )
 
 func makeClientTLSConfig(t *testing.T, mTLS bool) *tls.Config {

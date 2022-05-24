@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"hash"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 // Split a premaster secret in two as specified in RFC 4346, Section 5.

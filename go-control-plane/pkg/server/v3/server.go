@@ -18,25 +18,25 @@ package server
 import (
 	"context"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/codes"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/status"
+	"github.com/xiazeyin/gmgo/grpc/codes"
+	"github.com/xiazeyin/gmgo/grpc/status"
 
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/server/delta/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/server/rest/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/server/sotw/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/server/stream/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/server/delta/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/server/rest/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/server/sotw/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/server/stream/v3"
 
-	clusterservice "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/cluster/v3"
-	discovery "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/discovery/v3"
-	discoverygrpc "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/discovery/v3"
-	endpointservice "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/endpoint/v3"
-	extensionconfigservice "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/extension/v3"
-	listenerservice "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/listener/v3"
-	routeservice "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/route/v3"
-	runtimeservice "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/runtime/v3"
-	secretservice "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/service/secret/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/v3"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/resource/v3"
+	clusterservice "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/cluster/v3"
+	discovery "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/discovery/v3"
+	discoverygrpc "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/discovery/v3"
+	endpointservice "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/endpoint/v3"
+	extensionconfigservice "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/extension/v3"
+	listenerservice "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/listener/v3"
+	routeservice "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/route/v3"
+	runtimeservice "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/runtime/v3"
+	secretservice "github.com/xiazeyin/gmgo/go-control-plane/envoy/service/secret/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/resource/v3"
 )
 
 // Server is a collection of handlers for streaming discovery requests.

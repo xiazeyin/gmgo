@@ -8,10 +8,10 @@ package envoy_data_dns_v2alpha
 
 import (
 	_ "github.com/cncf/xds/go/udpa/annotations"
-	matcher "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type/matcher"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"
+	matcher "github.com/xiazeyin/gmgo/go-control-plane/envoy/type/matcher"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

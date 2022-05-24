@@ -18,8 +18,8 @@ import (
 	"errors"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/cache/types"
-	"gitee.com/zhaochuninhefei/gmgo/go-control-plane/pkg/resource/v3"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/cache/types"
+	"github.com/xiazeyin/gmgo/go-control-plane/pkg/resource/v3"
 )
 
 // Snapshot is an internally consistent snapshot of xDS resources.

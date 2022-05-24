@@ -20,8 +20,8 @@ import (
 	"syscall"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
-	"gitee.com/zhaochuninhefei/gmgo/net/nettest"
+	"github.com/xiazeyin/gmgo/net/internal/socket"
+	"github.com/xiazeyin/gmgo/net/nettest"
 )
 
 func TestSocket(t *testing.T) {
@@ -373,7 +373,7 @@ import (
 	"log"
 	"net"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv4"
+	"github.com/xiazeyin/gmgo/net/ipv4"
 )
 
 var g byte
@@ -408,7 +408,7 @@ import (
 	"log"
 	"net"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv4"
+	"github.com/xiazeyin/gmgo/net/ipv4"
 )
 
 func main() {

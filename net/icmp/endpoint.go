@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv4"
-	"gitee.com/zhaochuninhefei/gmgo/net/ipv6"
+	"github.com/xiazeyin/gmgo/net/ipv4"
+	"github.com/xiazeyin/gmgo/net/ipv6"
 )
 
 var _ net.PacketConn = &PacketConn{}

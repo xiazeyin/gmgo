@@ -23,9 +23,9 @@ import (
 	"sync"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/encoding"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpctest"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/test/codec_perf"
+	"github.com/xiazeyin/gmgo/grpc/encoding"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpctest"
+	"github.com/xiazeyin/gmgo/grpc/test/codec_perf"
 )
 
 func marshalAndUnmarshal(t *testing.T, codec encoding.Codec, expectedBody []byte) {

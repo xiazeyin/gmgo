@@ -11,8 +11,8 @@ import (
 	"io"
 	"strings"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 // NewRequest returns a new incoming server Request, suitable

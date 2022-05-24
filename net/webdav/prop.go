@@ -16,7 +16,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 // Proppatch describes a property update instruction as defined in RFC 4918.

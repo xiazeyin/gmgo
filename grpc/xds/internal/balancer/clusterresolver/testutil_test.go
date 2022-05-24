@@ -23,14 +23,14 @@ import (
 	"strconv"
 	"time"
 
-	xdspb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2"
-	corepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/core"
-	endpointpb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/api/v2/endpoint"
-	typepb "gitee.com/zhaochuninhefei/gmgo/go-control-plane/envoy/type"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/balancer"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/testutils"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/xds/internal/xdsclient/xdsresource"
+	xdspb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2"
+	corepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/core"
+	endpointpb "github.com/xiazeyin/gmgo/go-control-plane/envoy/api/v2/endpoint"
+	typepb "github.com/xiazeyin/gmgo/go-control-plane/envoy/type"
+	"github.com/xiazeyin/gmgo/grpc/balancer"
+	"github.com/xiazeyin/gmgo/grpc/internal/testutils"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal"
+	"github.com/xiazeyin/gmgo/grpc/xds/internal/xdsclient/xdsresource"
 )
 
 // parseEDSRespProtoForTesting parses EDS response, and panic if parsing fails.

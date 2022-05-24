@@ -7,7 +7,7 @@
 
 package ipv6
 
-import "gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
+import "github.com/xiazeyin/gmgo/net/internal/socket"
 
 func setControlMessage(c *socket.Conn, opt *rawOpt, cf ControlFlags, on bool) error {
 	return errNotImplemented

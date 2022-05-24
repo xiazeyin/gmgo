@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcrand"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/grpcutil"
-	iresolver "gitee.com/zhaochuninhefei/gmgo/grpc/internal/resolver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/xds/matcher"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/metadata"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcrand"
+	"github.com/xiazeyin/gmgo/grpc/internal/grpcutil"
+	iresolver "github.com/xiazeyin/gmgo/grpc/internal/resolver"
+	"github.com/xiazeyin/gmgo/grpc/internal/xds/matcher"
+	"github.com/xiazeyin/gmgo/grpc/metadata"
 )
 
 // RouteToMatcher converts a route to a Matcher to match incoming RPC's against.

@@ -7,7 +7,7 @@ package websocket
 import (
 	"net"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 func dialWithDialer(dialer *net.Dialer, config *Config) (conn net.Conn, err error) {

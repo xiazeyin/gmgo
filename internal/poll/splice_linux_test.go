@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/syscall/unix"
+	"github.com/xiazeyin/gmgo/internal/syscall/unix"
 
-	"gitee.com/zhaochuninhefei/gmgo/internal/poll"
+	"github.com/xiazeyin/gmgo/internal/poll"
 )
 
 // checkPipes returns true if all pipes are closed properly, false otherwise.

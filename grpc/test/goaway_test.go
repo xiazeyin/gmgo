@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	grpc "gitee.com/zhaochuninhefei/gmgo/grpc"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/internal/stubserver"
-	"gitee.com/zhaochuninhefei/gmgo/grpc/keepalive"
-	testpb "gitee.com/zhaochuninhefei/gmgo/grpc/test/grpc_testing"
+	grpc "github.com/xiazeyin/gmgo/grpc"
+	"github.com/xiazeyin/gmgo/grpc/internal/stubserver"
+	"github.com/xiazeyin/gmgo/grpc/keepalive"
+	testpb "github.com/xiazeyin/gmgo/grpc/test/grpc_testing"
 )
 
 // TestGracefulClientOnGoAway attempts to ensure that when the server sends a

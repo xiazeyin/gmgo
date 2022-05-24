@@ -23,8 +23,8 @@ import (
 	"math"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc/resolver"
 	xxhash "github.com/cespare/xxhash/v2"
+	"github.com/xiazeyin/gmgo/grpc/resolver"
 )
 
 func testAddr(addr string, weight uint32) resolver.Address {

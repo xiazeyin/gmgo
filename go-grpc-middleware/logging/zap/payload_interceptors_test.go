@@ -6,19 +6,19 @@ import (
 
 	"strings"
 
-	"gitee.com/zhaochuninhefei/gmgo/grpc"
 	"github.com/stretchr/testify/suite"
+	"github.com/xiazeyin/gmgo/grpc"
 
 	"io"
 
-	grpc_middleware "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware"
-	grpc_ctxtags "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/tags"
-	pb_testproto "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/testing/testproto"
-	"gitee.com/zhaochuninhefei/gmgo/net/context"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	grpc_middleware "github.com/xiazeyin/gmgo/go-grpc-middleware"
+	grpc_ctxtags "github.com/xiazeyin/gmgo/go-grpc-middleware/tags"
+	pb_testproto "github.com/xiazeyin/gmgo/go-grpc-middleware/testing/testproto"
+	"github.com/xiazeyin/gmgo/net/context"
 
-	grpc_zap "gitee.com/zhaochuninhefei/gmgo/go-grpc-middleware/logging/zap"
+	grpc_zap "github.com/xiazeyin/gmgo/go-grpc-middleware/logging/zap"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

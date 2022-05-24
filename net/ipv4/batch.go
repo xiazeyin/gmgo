@@ -8,7 +8,7 @@ import (
 	"net"
 	"runtime"
 
-	"gitee.com/zhaochuninhefei/gmgo/net/internal/socket"
+	"github.com/xiazeyin/gmgo/net/internal/socket"
 )
 
 // BUG(mikio): On Windows, the ReadBatch and WriteBatch methods of
